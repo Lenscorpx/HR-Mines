@@ -154,9 +154,6 @@
   <data name="103753" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\103753.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="world-travel-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\world-travel-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pass-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pass-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,8 +178,14 @@
   <data name="07379228" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\07379228.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="insankaynak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\insankaynak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="04-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="entrance-visa-filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entrance-visa-filled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -192,9 +195,6 @@
   </data>
   <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="entrance-visa-filled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\entrance-visa-filled1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="46698" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\46698.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,6 +220,9 @@
   <data name="Transport" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Transport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="img_335918" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_335918.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="report-3-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\report-3-512.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -232,13 +235,16 @@
   <data name="68395" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\68395.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="04-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\04-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="world-travel-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world-travel-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img_335918" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_335918.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="entrance-visa-filled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrance-visa-filled1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="insankaynak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\insankaynak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo alphamine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo alphamine.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alphamin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alphamin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

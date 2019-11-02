@@ -469,6 +469,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img_335918.ico" />
+    <None Include="Resources\Alphamin.png" />
+    <None Include="Resources\logo alphamine.jpg" />
     <None Include="Resources\insankaynak.png" />
     <None Include="Resources\07f7cf7dbe8bc74864ce8cc7e4770fea.jpg" />
   </ItemGroup>

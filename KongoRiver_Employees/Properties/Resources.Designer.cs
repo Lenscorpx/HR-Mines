@@ -233,6 +233,16 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Alphamin {
+            get {
+                object obj = ResourceManager.GetObject("Alphamin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Canada_Immigration_Icons_81 {
             get {
                 object obj = ResourceManager.GetObject("Canada-Immigration-Icons-81", resourceCulture);
@@ -376,6 +386,16 @@ namespace KongoRiver_Employees.Properties {
         internal static System.Drawing.Bitmap location_circle_512 {
             get {
                 object obj = ResourceManager.GetObject("location-circle-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_alphamine {
+            get {
+                object obj = ResourceManager.GetObject("logo alphamine", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
