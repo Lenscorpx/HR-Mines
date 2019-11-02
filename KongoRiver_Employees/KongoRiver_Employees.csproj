@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{014DAE22-B393-4072-8989-D3F313A49784}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KongoRiver_Employees</RootNamespace>
+    <AssemblyName>KongoRiver_Employees</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>img_335918.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Codes\DataRepository.cs" />
+    <Compile Include="_Codes\Marital_Status.cs" />
+    <Compile Include="_Codes\Params.cs" />
+    <Compile Include="_Codes\Sexes.cs" />
+    <Compile Include="_Interfaces\_Forms\frm_documents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_documents.Designer.cs">
+      <DependentUpon>frm_documents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_family.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_family.Designer.cs">
+      <DependentUpon>frm_family.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_menu.Designer.cs">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_operations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_operations.Designer.cs">
+      <DependentUpon>frm_operations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_parameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_parameters.Designer.cs">
+      <DependentUpon>frm_parameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_accueil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_accueil.Designer.cs">
+      <DependentUpon>uc_accueil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_affectation_site.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_affectation_site.Designer.cs">
+      <DependentUpon>uc_affectation_site.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_banks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_banks.Designer.cs">
+      <DependentUpon>uc_banks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_card_id.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_card_id.Designer.cs">
+      <DependentUpon>uc_card_id.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_department.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_department.Designer.cs">
+      <DependentUpon>uc_department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_documents_acc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_documents_acc.Designer.cs">
+      <DependentUpon>uc_documents_acc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_driving_license.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_driving_license.Designer.cs">
+      <DependentUpon>uc_driving_license.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_employee.Designer.cs">
+      <DependentUpon>uc_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_hiring.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_hiring.Designer.cs">
+      <DependentUpon>uc_hiring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_jobs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_jobs.Designer.cs">
+      <DependentUpon>uc_jobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_leave_end.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_leave_end.Designer.cs">
+      <DependentUpon>uc_leave_end.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_leave_in.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_leave_in.Designer.cs">
+      <DependentUpon>uc_leave_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_passport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_passport.Designer.cs">
+      <DependentUpon>uc_passport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_RR_type.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_RR_type.Designer.cs">
+      <DependentUpon>uc_RR_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_sites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_sites.Designer.cs">
+      <DependentUpon>uc_sites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_splash_employ_ops.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_splash_employ_ops.Designer.cs">
+      <DependentUpon>uc_splash_employ_ops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_splash_family.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_splash_family.Designer.cs">
+      <DependentUpon>uc_splash_family.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_splash_parameters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_splash_parameters.Designer.cs">
+      <DependentUpon>uc_splash_parameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_status_employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_status_employee.Designer.cs">
+      <DependentUpon>uc_status_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_visa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_visa.Designer.cs">
+      <DependentUpon>uc_visa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_visa_type.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_visa_type.Designer.cs">
+      <DependentUpon>uc_visa_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_vsr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_vsr.Designer.cs">
+      <DependentUpon>uc_vsr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_waiting_room.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_waiting_room.Designer.cs">
+      <DependentUpon>uc_waiting_room.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_documents.resx">
+      <DependentUpon>frm_documents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_family.resx">
+      <DependentUpon>frm_family.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_menu.resx">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_operations.resx">
+      <DependentUpon>frm_operations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_parameters.resx">
+      <DependentUpon>frm_parameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_accueil.resx">
+      <DependentUpon>uc_accueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_affectation_site.resx">
+      <DependentUpon>uc_affectation_site.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_banks.resx">
+      <DependentUpon>uc_banks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_card_id.resx">
+      <DependentUpon>uc_card_id.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_department.resx">
+      <DependentUpon>uc_department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_documents_acc.resx">
+      <DependentUpon>uc_documents_acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_driving_license.resx">
+      <DependentUpon>uc_driving_license.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_employee.resx">
+      <DependentUpon>uc_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_hiring.resx">
+      <DependentUpon>uc_hiring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_jobs.resx">
+      <DependentUpon>uc_jobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_leave_end.resx">
+      <DependentUpon>uc_leave_end.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_leave_in.resx">
+      <DependentUpon>uc_leave_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_passport.resx">
+      <DependentUpon>uc_passport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_RR_type.resx">
+      <DependentUpon>uc_RR_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_sites.resx">
+      <DependentUpon>uc_sites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_splash_employ_ops.resx">
+      <DependentUpon>uc_splash_employ_ops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_splash_family.resx">
+      <DependentUpon>uc_splash_family.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_splash_parameters.resx">
+      <DependentUpon>uc_splash_parameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_status_employee.resx">
+      <DependentUpon>uc_status_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_visa.resx">
+      <DependentUpon>uc_visa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_visa_type.resx">
+      <DependentUpon>uc_visa_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_vsr.resx">
+      <DependentUpon>uc_vsr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_waiting_room.resx">
+      <DependentUpon>uc_waiting_room.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017_SX195_White_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07379228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\103753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hold-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46698.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Children-icon-site.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resume-icon-png-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\175960-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Our-Traininer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Passport-PNG-Image-79529.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85643-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Canada-Immigration-Icons-81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wymqjqnxwlqcwfzlcqtz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5d8fe1f3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1400109414-GR_icons_PTW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrance-visa-filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver-license-card-filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38985.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\certification-document-text-paper-black-interface-symbol_icon-icons.com_54574.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location-circle-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExpatChild-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\070576-glossy-black-3d-button-icon-alphanumeric-letter-rr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41077-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin-money-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrance-visa-filled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\69146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_458523.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world-travel-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68395.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\76839-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_335918.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-3-512.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Noun_project_1063.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img_335918.ico" />
+    <None Include="Resources\insankaynak.png" />
+    <None Include="Resources\07f7cf7dbe8bc74864ce8cc7e4770fea.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
