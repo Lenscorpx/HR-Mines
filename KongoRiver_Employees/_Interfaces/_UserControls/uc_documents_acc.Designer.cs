@@ -48,19 +48,19 @@
             this.lbl_titre2.AutoSize = true;
             this.lbl_titre2.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_titre2.ForeColor = System.Drawing.Color.Black;
-            this.lbl_titre2.Location = new System.Drawing.Point(79, 145);
+            this.lbl_titre2.Location = new System.Drawing.Point(211, 145);
             this.lbl_titre2.Name = "lbl_titre2";
-            this.lbl_titre2.Size = new System.Drawing.Size(417, 75);
-            this.lbl_titre2.TabIndex = 8;
-            this.lbl_titre2.Text = "Kongo River";
+            this.lbl_titre2.Size = new System.Drawing.Size(242, 75);
+            this.lbl_titre2.TabIndex = 10;
+            this.lbl_titre2.Text = "Andrea";
             // 
             // uc_documents_acc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.lbl_titre2);
+            this.Controls.Add(this.label3);
             this.Name = "uc_documents_acc";
             this.Size = new System.Drawing.Size(824, 454);
             this.ResumeLayout(false);
