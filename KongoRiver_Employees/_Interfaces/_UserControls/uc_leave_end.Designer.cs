@@ -174,7 +174,7 @@
             this.lbl_expected.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_expected.Font = new System.Drawing.Font("Roboto", 11F);
             this.lbl_expected.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbl_expected.Location = new System.Drawing.Point(671, 167);
+            this.lbl_expected.Location = new System.Drawing.Point(863, 165);
             this.lbl_expected.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_expected.Name = "lbl_expected";
             this.lbl_expected.Size = new System.Drawing.Size(17, 19);
@@ -188,7 +188,7 @@
             this.lbl_dys_on_leave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbl_dys_on_leave.Font = new System.Drawing.Font("Roboto", 11F);
             this.lbl_dys_on_leave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbl_dys_on_leave.Location = new System.Drawing.Point(875, 169);
+            this.lbl_dys_on_leave.Location = new System.Drawing.Point(658, 165);
             this.lbl_dys_on_leave.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_dys_on_leave.Name = "lbl_dys_on_leave";
             this.lbl_dys_on_leave.Size = new System.Drawing.Size(17, 19);
