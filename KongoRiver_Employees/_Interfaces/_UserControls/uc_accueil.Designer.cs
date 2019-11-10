@@ -37,7 +37,7 @@
             this.pictureBox1.Image = global::KongoRiver_Employees.Properties.Resources.Alphamin;
             this.pictureBox1.Location = new System.Drawing.Point(189, 77);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(538, 332);
+            this.pictureBox1.Size = new System.Drawing.Size(603, 350);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -49,7 +49,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
             this.Controls.Add(this.pictureBox1);
             this.Name = "uc_accueil";
-            this.Size = new System.Drawing.Size(993, 526);
+            this.Size = new System.Drawing.Size(1007, 576);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

@@ -126,6 +126,12 @@
     <Compile Include="_Interfaces\_UserControls\uc_card_id.Designer.cs">
       <DependentUpon>uc_card_id.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_UserControls\uc_dashboard.Designer.cs">
+      <DependentUpon>uc_dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_department.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -276,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_UserControls\uc_card_id.resx">
       <DependentUpon>uc_card_id.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_UserControls\uc_dashboard.resx">
+      <DependentUpon>uc_dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_UserControls\uc_department.resx">
       <DependentUpon>uc_department.cs</DependentUpon>

@@ -16,5 +16,10 @@ namespace KongoRiver_Employees._Interfaces._UserControls
         {
             InitializeComponent();
         }
+
+        private void uc_dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

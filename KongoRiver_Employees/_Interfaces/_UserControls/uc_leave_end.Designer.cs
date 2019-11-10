@@ -73,9 +73,9 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.panel1.Controls.Add(this.bunifuCustomDataGrid1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 313);
+            this.panel1.Location = new System.Drawing.Point(0, 319);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(993, 257);
+            this.panel1.Size = new System.Drawing.Size(1007, 257);
             this.panel1.TabIndex = 0;
             // 
             // bunifuCustomDataGrid1
@@ -133,7 +133,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.bunifuCustomDataGrid1.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.bunifuCustomDataGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(993, 257);
+            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(1007, 257);
             this.bunifuCustomDataGrid1.TabIndex = 5;
             this.bunifuCustomDataGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid1_CellContentClick);
             // 
@@ -164,7 +164,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(993, 313);
+            this.panel2.Size = new System.Drawing.Size(1007, 319);
             this.panel2.TabIndex = 1;
             // 
             // lbl_expected
@@ -320,7 +320,7 @@
             this.txt_id_leave_end.SelectedText = "";
             this.txt_id_leave_end.SelectionLength = 0;
             this.txt_id_leave_end.SelectionStart = 0;
-            this.txt_id_leave_end.Size = new System.Drawing.Size(110, 23);
+            this.txt_id_leave_end.Size = new System.Drawing.Size(124, 23);
             this.txt_id_leave_end.TabIndex = 242;
             this.txt_id_leave_end.UseSystemPasswordChar = false;
             // 
@@ -339,7 +339,7 @@
             this.txt_id_leave_in.SelectedText = "";
             this.txt_id_leave_in.SelectionLength = 0;
             this.txt_id_leave_in.SelectionStart = 0;
-            this.txt_id_leave_in.Size = new System.Drawing.Size(115, 23);
+            this.txt_id_leave_in.Size = new System.Drawing.Size(129, 23);
             this.txt_id_leave_in.TabIndex = 241;
             this.txt_id_leave_in.UseSystemPasswordChar = false;
             // 
@@ -429,7 +429,7 @@
             this.txt_id_engagement.SelectedText = "";
             this.txt_id_engagement.SelectionLength = 0;
             this.txt_id_engagement.SelectionStart = 0;
-            this.txt_id_engagement.Size = new System.Drawing.Size(118, 23);
+            this.txt_id_engagement.Size = new System.Drawing.Size(132, 23);
             this.txt_id_engagement.TabIndex = 234;
             this.txt_id_engagement.UseSystemPasswordChar = false;
             // 
@@ -515,7 +515,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "uc_leave_end";
-            this.Size = new System.Drawing.Size(993, 570);
+            this.Size = new System.Drawing.Size(1007, 576);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
             this.panel2.ResumeLayout(false);

@@ -90,5 +90,22 @@ namespace KongoRiver_Employees._Interfaces._UserControls
         {
             rps.rechercher_visa(bunifuCustomDataGrid1, txt_coy_id.Text);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(txt_visa_ref.Text=="")
+            {
+                MessageBox.Show("Selectionnez le numero de visa a declasser!");
+            }
+            else
+            {
+                DialogResult rs = new DialogResult();
+                rs = MessageBox.Show(this, "Is this visa already expired?", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
+                if(rs==DialogResult.Yes)
+                {
+                    rps.expirer_visa(txt_visa_ref.Text);
+                }
+            }
+        }
     }
 }

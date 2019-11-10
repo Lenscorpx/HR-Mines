@@ -189,5 +189,25 @@ namespace KongoRiver_Employees._Interfaces._Forms
             bunifuTransition1.ShowSync(fr);
             fr.Visible = true;
         }
+
+        private void bunifuFlatButton10_Click(object sender, EventArgs e)
+        {
+            bunifuFlatButton10.Focus();
+            if (bunifuFlatButton10.Focused == true)
+            {
+                bunifuFlatButton10.ForeColor = Color.White;
+                bunifuFlatButton10.BackColor = Color.Black;
+            }
+            var fr = new uc_dashboard()
+            {
+                Size = panel4.Size
+            };
+            panel4.Controls.Clear();
+            panel4.Controls.Add(fr);
+            fr.Visible = false;
+            bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
+            bunifuTransition1.ShowSync(fr);
+            fr.Visible = true;
+        }
     }
 }

@@ -34,6 +34,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.txt_noms = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
@@ -52,8 +54,6 @@
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.dt_date_hiring = new MetroFramework.Controls.MetroDateTime();
             this.txt_coy_id = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
@@ -84,8 +84,81 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(993, 570);
+            this.panel2.Size = new System.Drawing.Size(1007, 576);
             this.panel2.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.bunifuCustomDataGrid1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 276);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1007, 300);
+            this.panel1.TabIndex = 219;
+            // 
+            // bunifuCustomDataGrid1
+            // 
+            this.bunifuCustomDataGrid1.AllowUserToAddRows = false;
+            this.bunifuCustomDataGrid1.AllowUserToDeleteRows = false;
+            this.bunifuCustomDataGrid1.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.bunifuCustomDataGrid1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bunifuCustomDataGrid1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuCustomDataGrid1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.bunifuCustomDataGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomDataGrid1.DoubleBuffered = true;
+            this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid1.GridColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid1.HeaderBgColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuCustomDataGrid1.MultiSelect = false;
+            this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
+            this.bunifuCustomDataGrid1.ReadOnly = true;
+            this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid1.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.bunifuCustomDataGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(1007, 300);
+            this.bunifuCustomDataGrid1.TabIndex = 3;
+            this.bunifuCustomDataGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid1_CellContentClick_1);
             // 
             // materialLabel5
             // 
@@ -205,7 +278,7 @@
             this.txt_id_engagement.SelectedText = "";
             this.txt_id_engagement.SelectionLength = 0;
             this.txt_id_engagement.SelectionStart = 0;
-            this.txt_id_engagement.Size = new System.Drawing.Size(134, 23);
+            this.txt_id_engagement.Size = new System.Drawing.Size(148, 23);
             this.txt_id_engagement.TabIndex = 205;
             this.txt_id_engagement.UseSystemPasswordChar = false;
             this.txt_id_engagement.Visible = false;
@@ -348,79 +421,6 @@
             this.txt_coy_id.Visible = false;
             this.txt_coy_id.TextChanged += new System.EventHandler(this.txt_coy_id_TextChanged);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.bunifuCustomDataGrid1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 270);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(993, 300);
-            this.panel1.TabIndex = 219;
-            // 
-            // bunifuCustomDataGrid1
-            // 
-            this.bunifuCustomDataGrid1.AllowUserToAddRows = false;
-            this.bunifuCustomDataGrid1.AllowUserToDeleteRows = false;
-            this.bunifuCustomDataGrid1.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.bunifuCustomDataGrid1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.bunifuCustomDataGrid1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuCustomDataGrid1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.bunifuCustomDataGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomDataGrid1.DoubleBuffered = true;
-            this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid1.GridColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid1.HeaderBgColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuCustomDataGrid1.MultiSelect = false;
-            this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
-            this.bunifuCustomDataGrid1.ReadOnly = true;
-            this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid1.RowsDefaultCellStyle = dataGridViewCellStyle5;
-            this.bunifuCustomDataGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(993, 300);
-            this.bunifuCustomDataGrid1.TabIndex = 3;
-            this.bunifuCustomDataGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid1_CellContentClick_1);
-            // 
             // uc_hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -428,7 +428,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.Controls.Add(this.panel2);
             this.Name = "uc_hiring";
-            this.Size = new System.Drawing.Size(993, 570);
+            this.Size = new System.Drawing.Size(1007, 576);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

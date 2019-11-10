@@ -2598,5 +2598,34 @@ namespace KongoRiver_Employees._Codes
                 cnx.Close(); cnx.Dispose();
             }
         }
+        public void expirer_visa(string visa_ref)
+        {
+            cnx = new SqlConnection(prms.ToString());
+            try
+            {
+                if (cnx.State == ConnectionState.Closed)
+                    cnx.Open();
+                var cmd = new SqlCommand("expirer_visa", cnx)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.Add(new SqlParameter("visa_ref", SqlDbType.NVarChar)).Value = visa_ref;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Succesfully done!");
+            }
+            catch (Exception tdf)
+            {
+                var rs = new DialogResult();
+                rs = MessageBox.Show("Want to see error code?", "Errors ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rs == DialogResult.Yes)
+                {
+                    MessageBox.Show(tdf.ToString());
+                }
+            }
+            finally
+            {
+                cnx.Close(); cnx.Dispose();
+            }
+        }
     }
 }
