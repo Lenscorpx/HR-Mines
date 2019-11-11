@@ -172,22 +172,22 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void bunifuFlatButton6_Click(object sender, EventArgs e)
         {
-            bunifuFlatButton6.Focus();
-            if(bunifuFlatButton6.Focused==true)
-            {
-                bunifuFlatButton6.ForeColor = Color.White;
-                bunifuFlatButton6.BackColor = Color.Black;
-            }
-            var fr = new uc_leave_end()
-            {
-                Size = panel4.Size
-            };
-            panel4.Controls.Clear();
-            panel4.Controls.Add(fr);
-            fr.Visible = false;
-            bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
-            bunifuTransition1.ShowSync(fr);
-            fr.Visible = true;
+            //bunifuFlatButton6.Focus();
+            //if(bunifuFlatButton6.Focused==true)
+            //{
+            //    bunifuFlatButton6.ForeColor = Color.White;
+            //    bunifuFlatButton6.BackColor = Color.Black;
+            //}
+            //var fr = new uc_leave_end()
+            //{
+            //    Size = panel4.Size
+            //};
+            //panel4.Controls.Clear();
+            //panel4.Controls.Add(fr);
+            //fr.Visible = false;
+            //bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
+            //bunifuTransition1.ShowSync(fr);
+            //fr.Visible = true;
         }
 
         private void bunifuFlatButton10_Click(object sender, EventArgs e)
