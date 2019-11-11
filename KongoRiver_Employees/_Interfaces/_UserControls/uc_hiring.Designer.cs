@@ -291,7 +291,6 @@
             this.txt_id_engagement.Size = new System.Drawing.Size(134, 23);
             this.txt_id_engagement.TabIndex = 205;
             this.txt_id_engagement.UseSystemPasswordChar = false;
-            this.txt_id_engagement.Visible = false;
             // 
             // txt_phone_1
             // 
@@ -428,7 +427,6 @@
             this.txt_coy_id.Size = new System.Drawing.Size(123, 23);
             this.txt_coy_id.TabIndex = 188;
             this.txt_coy_id.UseSystemPasswordChar = false;
-            this.txt_coy_id.Visible = false;
             this.txt_coy_id.TextChanged += new System.EventHandler(this.txt_coy_id_TextChanged);
             // 
             // materialLabel2
