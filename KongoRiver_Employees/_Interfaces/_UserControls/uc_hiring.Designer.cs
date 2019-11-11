@@ -54,6 +54,11 @@
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.dt_date_hiring = new MetroFramework.Controls.MetroDateTime();
             this.txt_coy_id = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
+            this.cbx_type_contrat = new MetroFramework.Controls.MetroComboBox();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
@@ -62,6 +67,11 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.cbx_type_contrat);
+            this.panel2.Controls.Add(this.materialLabel8);
+            this.panel2.Controls.Add(this.materialLabel7);
+            this.panel2.Controls.Add(this.metroDateTime1);
+            this.panel2.Controls.Add(this.materialLabel2);
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.materialLabel5);
             this.panel2.Controls.Add(this.txt_noms);
@@ -92,9 +102,9 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.bunifuCustomDataGrid1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 276);
+            this.panel1.Location = new System.Drawing.Point(0, 233);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1007, 300);
+            this.panel1.Size = new System.Drawing.Size(1007, 343);
             this.panel1.TabIndex = 219;
             // 
             // bunifuCustomDataGrid1
@@ -156,7 +166,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
             this.bunifuCustomDataGrid1.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.bunifuCustomDataGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(1007, 300);
+            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(1007, 343);
             this.bunifuCustomDataGrid1.TabIndex = 3;
             this.bunifuCustomDataGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid1_CellContentClick_1);
             // 
@@ -167,7 +177,7 @@
             this.materialLabel5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel5.Location = new System.Drawing.Point(654, 117);
+            this.materialLabel5.Location = new System.Drawing.Point(672, 102);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(120, 19);
@@ -178,14 +188,14 @@
             // 
             this.txt_noms.Depth = 0;
             this.txt_noms.Hint = "Employee\'s full name";
-            this.txt_noms.Location = new System.Drawing.Point(527, 34);
+            this.txt_noms.Location = new System.Drawing.Point(584, 5);
             this.txt_noms.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_noms.Name = "txt_noms";
             this.txt_noms.PasswordChar = '\0';
             this.txt_noms.SelectedText = "";
             this.txt_noms.SelectionLength = 0;
             this.txt_noms.SelectionStart = 0;
-            this.txt_noms.Size = new System.Drawing.Size(459, 23);
+            this.txt_noms.Size = new System.Drawing.Size(402, 23);
             this.txt_noms.TabIndex = 217;
             this.txt_noms.UseSystemPasswordChar = false;
             this.txt_noms.Click += new System.EventHandler(this.txt_noms_Click);
@@ -197,7 +207,7 @@
             this.materialLabel6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel6.Location = new System.Drawing.Point(311, 147);
+            this.materialLabel6.Location = new System.Drawing.Point(311, 165);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             this.materialLabel6.Size = new System.Drawing.Size(125, 19);
@@ -212,7 +222,7 @@
             this.materialLabel3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(309, 117);
+            this.materialLabel3.Location = new System.Drawing.Point(671, 68);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(120, 19);
@@ -252,14 +262,14 @@
             // 
             this.txt_phone_2.Depth = 0;
             this.txt_phone_2.Hint = "Enter phone number 2";
-            this.txt_phone_2.Location = new System.Drawing.Point(781, 116);
+            this.txt_phone_2.Location = new System.Drawing.Point(795, 101);
             this.txt_phone_2.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_phone_2.Name = "txt_phone_2";
             this.txt_phone_2.PasswordChar = '\0';
             this.txt_phone_2.SelectedText = "";
             this.txt_phone_2.SelectionLength = 0;
             this.txt_phone_2.SelectionStart = 0;
-            this.txt_phone_2.Size = new System.Drawing.Size(205, 23);
+            this.txt_phone_2.Size = new System.Drawing.Size(191, 23);
             this.txt_phone_2.TabIndex = 211;
             this.txt_phone_2.UseSystemPasswordChar = false;
             // 
@@ -278,7 +288,7 @@
             this.txt_id_engagement.SelectedText = "";
             this.txt_id_engagement.SelectionLength = 0;
             this.txt_id_engagement.SelectionStart = 0;
-            this.txt_id_engagement.Size = new System.Drawing.Size(148, 23);
+            this.txt_id_engagement.Size = new System.Drawing.Size(134, 23);
             this.txt_id_engagement.TabIndex = 205;
             this.txt_id_engagement.UseSystemPasswordChar = false;
             this.txt_id_engagement.Visible = false;
@@ -287,14 +297,14 @@
             // 
             this.txt_phone_1.Depth = 0;
             this.txt_phone_1.Hint = "Enter phone number 1";
-            this.txt_phone_1.Location = new System.Drawing.Point(435, 116);
+            this.txt_phone_1.Location = new System.Drawing.Point(797, 68);
             this.txt_phone_1.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_phone_1.Name = "txt_phone_1";
             this.txt_phone_1.PasswordChar = '\0';
             this.txt_phone_1.SelectedText = "";
             this.txt_phone_1.SelectionLength = 0;
             this.txt_phone_1.SelectionStart = 0;
-            this.txt_phone_1.Size = new System.Drawing.Size(215, 23);
+            this.txt_phone_1.Size = new System.Drawing.Size(189, 23);
             this.txt_phone_1.TabIndex = 204;
             this.txt_phone_1.UseSystemPasswordChar = false;
             // 
@@ -304,9 +314,9 @@
             this.cbx_marital_status.FontSize = MetroFramework.MetroComboBoxSize.Small;
             this.cbx_marital_status.FormattingEnabled = true;
             this.cbx_marital_status.ItemHeight = 19;
-            this.cbx_marital_status.Location = new System.Drawing.Point(781, 73);
+            this.cbx_marital_status.Location = new System.Drawing.Point(793, 34);
             this.cbx_marital_status.Name = "cbx_marital_status";
-            this.cbx_marital_status.Size = new System.Drawing.Size(205, 25);
+            this.cbx_marital_status.Size = new System.Drawing.Size(193, 25);
             this.cbx_marital_status.TabIndex = 202;
             this.cbx_marital_status.UseSelectable = true;
             // 
@@ -314,14 +324,14 @@
             // 
             this.txt_curent_address.Depth = 0;
             this.txt_curent_address.Hint = "Enter current address";
-            this.txt_curent_address.Location = new System.Drawing.Point(431, 174);
+            this.txt_curent_address.Location = new System.Drawing.Point(442, 165);
             this.txt_curent_address.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_curent_address.Name = "txt_curent_address";
             this.txt_curent_address.PasswordChar = '\0';
             this.txt_curent_address.SelectedText = "";
             this.txt_curent_address.SelectionLength = 0;
             this.txt_curent_address.SelectionStart = 0;
-            this.txt_curent_address.Size = new System.Drawing.Size(555, 23);
+            this.txt_curent_address.Size = new System.Drawing.Size(544, 23);
             this.txt_curent_address.TabIndex = 201;
             this.txt_curent_address.UseSystemPasswordChar = false;
             // 
@@ -332,7 +342,7 @@
             this.materialLabel4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(672, 77);
+            this.materialLabel4.Location = new System.Drawing.Point(672, 34);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             this.materialLabel4.Size = new System.Drawing.Size(103, 19);
@@ -345,9 +355,9 @@
             this.cbx_status_employee.FontSize = MetroFramework.MetroComboBoxSize.Small;
             this.cbx_status_employee.FormattingEnabled = true;
             this.cbx_status_employee.ItemHeight = 19;
-            this.cbx_status_employee.Location = new System.Drawing.Point(434, 73);
+            this.cbx_status_employee.Location = new System.Drawing.Point(439, 34);
             this.cbx_status_employee.Name = "cbx_status_employee";
-            this.cbx_status_employee.Size = new System.Drawing.Size(216, 25);
+            this.cbx_status_employee.Size = new System.Drawing.Size(191, 25);
             this.cbx_status_employee.TabIndex = 198;
             this.cbx_status_employee.UseSelectable = true;
             // 
@@ -357,7 +367,7 @@
             this.btn_supprimer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btn_supprimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_supprimer.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_supprimer.Location = new System.Drawing.Point(815, 227);
+            this.btn_supprimer.Location = new System.Drawing.Point(811, 194);
             this.btn_supprimer.Name = "btn_supprimer";
             this.btn_supprimer.Size = new System.Drawing.Size(175, 33);
             this.btn_supprimer.TabIndex = 197;
@@ -371,7 +381,7 @@
             this.btn_enregistrer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btn_enregistrer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_enregistrer.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_enregistrer.Location = new System.Drawing.Point(634, 227);
+            this.btn_enregistrer.Location = new System.Drawing.Point(630, 194);
             this.btn_enregistrer.Name = "btn_enregistrer";
             this.btn_enregistrer.Size = new System.Drawing.Size(175, 33);
             this.btn_enregistrer.TabIndex = 196;
@@ -386,7 +396,7 @@
             this.materialLabel1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(309, 76);
+            this.materialLabel1.Location = new System.Drawing.Point(311, 38);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(122, 19);
@@ -397,10 +407,10 @@
             // 
             this.dt_date_hiring.FontSize = MetroFramework.MetroDateTimeSize.Small;
             this.dt_date_hiring.FontWeight = MetroFramework.MetroDateTimeWeight.Light;
-            this.dt_date_hiring.Location = new System.Drawing.Point(315, 31);
+            this.dt_date_hiring.Location = new System.Drawing.Point(439, 63);
             this.dt_date_hiring.MinimumSize = new System.Drawing.Size(0, 25);
             this.dt_date_hiring.Name = "dt_date_hiring";
-            this.dt_date_hiring.Size = new System.Drawing.Size(206, 25);
+            this.dt_date_hiring.Size = new System.Drawing.Size(191, 25);
             this.dt_date_hiring.TabIndex = 190;
             // 
             // txt_coy_id
@@ -415,11 +425,75 @@
             this.txt_coy_id.SelectedText = "";
             this.txt_coy_id.SelectionLength = 0;
             this.txt_coy_id.SelectionStart = 0;
-            this.txt_coy_id.Size = new System.Drawing.Size(535, 23);
+            this.txt_coy_id.Size = new System.Drawing.Size(123, 23);
             this.txt_coy_id.TabIndex = 188;
             this.txt_coy_id.UseSystemPasswordChar = false;
             this.txt_coy_id.Visible = false;
             this.txt_coy_id.TextChanged += new System.EventHandler(this.txt_coy_id_TextChanged);
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(311, 67);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(76, 19);
+            this.materialLabel2.TabIndex = 220;
+            this.materialLabel2.Text = "Start Date";
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.Location = new System.Drawing.Point(311, 95);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(69, 19);
+            this.materialLabel7.TabIndex = 222;
+            this.materialLabel7.Text = "End Date";
+            // 
+            // metroDateTime1
+            // 
+            this.metroDateTime1.FontSize = MetroFramework.MetroDateTimeSize.Small;
+            this.metroDateTime1.FontWeight = MetroFramework.MetroDateTimeWeight.Light;
+            this.metroDateTime1.Location = new System.Drawing.Point(439, 94);
+            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 25);
+            this.metroDateTime1.Name = "metroDateTime1";
+            this.metroDateTime1.Size = new System.Drawing.Size(191, 25);
+            this.metroDateTime1.TabIndex = 221;
+            // 
+            // cbx_type_contrat
+            // 
+            this.cbx_type_contrat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.cbx_type_contrat.FontSize = MetroFramework.MetroComboBoxSize.Small;
+            this.cbx_type_contrat.FormattingEnabled = true;
+            this.cbx_type_contrat.ItemHeight = 19;
+            this.cbx_type_contrat.Location = new System.Drawing.Point(440, 125);
+            this.cbx_type_contrat.Name = "cbx_type_contrat";
+            this.cbx_type_contrat.Size = new System.Drawing.Size(191, 25);
+            this.cbx_type_contrat.TabIndex = 224;
+            this.cbx_type_contrat.UseSelectable = true;
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.Location = new System.Drawing.Point(311, 128);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(103, 19);
+            this.materialLabel8.TabIndex = 223;
+            this.materialLabel8.Text = "Contract Type";
             // 
             // uc_hiring
             // 
@@ -459,5 +533,10 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private System.Windows.Forms.Panel panel1;
         private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid1;
+        private MetroFramework.Controls.MetroComboBox cbx_type_contrat;
+        private MaterialSkin.Controls.MaterialLabel materialLabel8;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MetroFramework.Controls.MetroDateTime metroDateTime1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
     }
 }

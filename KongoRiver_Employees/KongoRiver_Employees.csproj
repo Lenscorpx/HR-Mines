@@ -72,6 +72,12 @@
     <Compile Include="_Codes\Marital_Status.cs" />
     <Compile Include="_Codes\Params.cs" />
     <Compile Include="_Codes\Sexes.cs" />
+    <Compile Include="_Interfaces\_Forms\frm_alerte_visa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_alerte_visa.Designer.cs">
+      <DependentUpon>frm_alerte_visa.cs</DependentUpon>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_documents.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,6 +262,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_alerte_visa.resx">
+      <DependentUpon>frm_alerte_visa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_documents.resx">
       <DependentUpon>frm_documents.cs</DependentUpon>
     </EmbeddedResource>

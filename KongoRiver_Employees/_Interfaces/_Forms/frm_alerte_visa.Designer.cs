@@ -28,9 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frm_alerte_visa
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "frm_alerte_visa";
+            this.ClientSize = new System.Drawing.Size(1210, 453);
+            this.Name = "frm_alerte_visa";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
