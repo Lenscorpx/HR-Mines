@@ -130,11 +130,13 @@ namespace KongoRiver_Employees._Interfaces._UserControls
             txt_id_engagement.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[0].Value.ToString();
             txt_coy_id.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[1].Value.ToString();
             dt_date_hiring.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[2].Value.ToString();
-            cbx_status_employee.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[3].Value.ToString();
-            txt_curent_address.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[4].Value.ToString();
-            cbx_marital_status.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[5].Value.ToString();
-            txt_phone_1.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[6].Value.ToString();
-            txt_phone_2.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[7].Value.ToString();
+            dt_fin_contrat.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[3].Value.ToString();
+            cbx_status_employee.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[4].Value.ToString();
+            cbx_type_contrat.Text= bunifuCustomDataGrid1.SelectedRows[0].Cells[5].Value.ToString();
+            txt_curent_address.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[6].Value.ToString();
+            cbx_marital_status.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[7].Value.ToString();
+            txt_phone_1.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[8].Value.ToString();
+            txt_phone_2.Text = bunifuCustomDataGrid1.SelectedRows[0].Cells[9].Value.ToString();
         }
     }
 }
