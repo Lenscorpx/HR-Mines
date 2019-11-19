@@ -23,6 +23,7 @@ namespace KongoRiver_Employees._Interfaces._UserControls
         {
             rps.afficher_engagement_employee(bunifuCustomDataGrid1);
             rps.remplir_lisbox_nom(listBox1);
+            rps.recuperer_contrat(cbx_type_contrat);
             cbx_marital_status.Items.Clear();
             rps.recuperer_status_employee(cbx_status_employee);
             cbx_marital_status.Items.Add(Marital_Status.Single);

@@ -1072,8 +1072,10 @@ as
 	select top 100 
 		id_engagement_employee as 'ID Num.',
 		coy_ID as 'Coy ID',
-		date_engagement as 'Date',
+		date_engagement as 'Debut Contrat',
+		date_fin_contrat as 'Fin Contrat',
 		id_status_employee as 'Status Emp.',
+		id_contract as 'Contrat',
 		current_adress as 'Address',
 		marital_status as 'M. Status',
 		telephone_1 as 'Phone 1',
@@ -1126,6 +1128,8 @@ go
 create procedure enregistrer_engagement_employee
 @coy_ID nvarchar(50),
 @date_engagement date,
+@date_fin_contrat date,
+@id_contract nvarchar(50),
 @id_status_employee nvarchar(50),
 @current_adress nvarchar(50),
 @marital_status nvarchar(50),
@@ -1133,14 +1137,16 @@ create procedure enregistrer_engagement_employee
 @telephone_2 nvarchar(50)
 as
 	insert into t_engagement_employee
-		(coy_ID,date_engagement,id_status_employee,current_adress,marital_status,telephone_1,telephone_2)
+		(coy_ID,date_engagement,id_status_employee,current_adress,marital_status,telephone_1,telephone_2,date_fin_contrat,id_contract)
 	values
-		(@coy_ID,@date_engagement,@id_status_employee,@current_adress,@marital_status,@telephone_1,@telephone_2)
+		(@coy_ID,@date_engagement,@id_status_employee,@current_adress,@marital_status,@telephone_1,@telephone_2,@date_fin_contrat,@id_contract)
 go
-create procedure modifier_engagement_employee
+alter procedure modifier_engagement_employee
 @id_engagement_employee int,
 @coy_ID nvarchar(50),
 @date_engagement date,
+@date_fin_contrat date,
+@id_contract nvarchar(50),
 @id_status_employee nvarchar(50),
 @current_adress nvarchar(50),
 @marital_status nvarchar(50),
@@ -1155,7 +1161,9 @@ as
 			current_adress=@current_adress,
 			marital_status=@marital_status,
 			telephone_1=@telephone_1,
-			telephone_2=@telephone_2
+			telephone_2=@telephone_2,
+			date_fin_contrat=@date_fin_contrat,
+			id_contract=@id_contract
 		where
 			id_engagement_employee=@id_engagement_employee
 go
