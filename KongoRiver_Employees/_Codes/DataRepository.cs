@@ -2627,5 +2627,36 @@ namespace KongoRiver_Employees._Codes
                 cnx.Close(); cnx.Dispose();
             }
         }
+        public void recuperer_contrat(MetroComboBox cbx)
+        {
+            cnx = new SqlConnection(prms.ToString());
+            try
+            {
+                if (cnx.State == ConnectionState.Closed)
+                    cnx.Open();
+                var cmd = new SqlCommand("recuperer_contrat", cnx)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                //cmd.Parameters.Add(new SqlParameter("complete_name", SqlDbType.NVarChar)).Value = search_name;
+                cmd.ExecuteNonQuery();
+                var da = new SqlDataAdapter(cmd);
+                var dt = new DataTable();
+                da.Fill(dt);
+                cbx.Items.Clear();
+                foreach (DataRow dr in dt.Rows)
+                {
+                    cbx.Items.Add(Convert.ToString(dr[0]));
+                }
+            }
+            catch (Exception tdf)
+            {
+                MessageBox.Show("Connection failed!\n" + tdf);
+            }
+            finally
+            {
+                cnx.Close(); cnx.Dispose();
+            }
+        }
     }
 }
