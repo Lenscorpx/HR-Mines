@@ -290,6 +290,14 @@ create table t_resident_card
 		constraint fk_employee_resid_card foreign key(coy_ID) references t_employees(coy_ID)
 	)
 go
+create table t_contract
+(
+	id_contract nvarchar(50),
+	descr_contrat nvarchar(100),
+	constraint pk_type_contr primary key(id_contract)
+)
+go
+
 /****** Object:  Table dbo.t_engagement_employee    Script Date: 14/10/2017 16:36:27 ******/
 create table t_engagement_employee
 	(
@@ -306,6 +314,16 @@ create table t_engagement_employee
 		constraint fk_status_engagement foreign key(id_status_employee) references t_status_employee(id_status_employee)
 	)
 go
+alter table t_engagement_employee
+	add id_contract nvarchar(50),
+	constraint fk_type_contrat foreign key(id_contract) references t_contract(id_contract) on delete cascade on update cascade
+go
+alter table t_engagement_employee
+add date_fin_contrat date
+go
+select * from t_engagement_employee
+alter table t_engagement_employee
+add id_type_contrat nvarchar
 /****** Object:  Table dbo.t_leave_in    Script Date: 14/10/2017 16:36:27 ******/
 create table t_leave_in
 	(
@@ -1920,3 +1938,17 @@ where
 	[jours restants] <= @nombre
 order by 
 	[jours restants] asc
+go
+
+create procedure recuperer_contrat
+as
+	select id_contract from t_contract
+	order by id_contract asc
+go
+insert into t_contract
+	(id_contract, descr_contrat)
+values
+	('CDI','Contrat a duree indeterminee'),
+	('CDD','Contrat a duree determinee'),
+	('CS','Contrat de stage'),
+	('CJ','Contrat journalier');
