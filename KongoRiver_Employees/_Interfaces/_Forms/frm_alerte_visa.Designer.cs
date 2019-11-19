@@ -32,11 +32,21 @@
             // 
             // frm_alerte_visa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1210, 558);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1250, 569);
+            this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
             this.Name = "frm_alerte_visa";
+            this.Opacity = 0.9D;
+            this.Padding = new System.Windows.Forms.Padding(27, 78, 27, 26);
+            this.Resizable = false;
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Text = "Alerte Visa";
+            this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.ResumeLayout(false);
 
         }
