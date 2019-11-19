@@ -1057,8 +1057,10 @@ as
 	select
 		id_engagement_employee as 'ID Num.',
 		coy_ID as 'Coy ID',
-		date_engagement as 'Date',
+		date_engagement as 'Debut Contrat',
+		date_fin_contrat as 'Fin Contrat',
 		id_status_employee as 'Status Emp.',
+		id_contract as 'Contrat',
 		current_adress as 'Address',
 		marital_status as 'M. Status',
 		telephone_1 as 'Phone 1',

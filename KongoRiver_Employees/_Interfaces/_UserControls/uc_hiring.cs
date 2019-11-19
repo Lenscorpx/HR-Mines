@@ -44,15 +44,15 @@ namespace KongoRiver_Employees._Interfaces._UserControls
 
         private void btn_enregistrer_Click(object sender, EventArgs e)
         {
-            if(txt_id_engagement.Text!="")
+            if (txt_id_engagement.Text != "")
             {
-                if(txt_coy_id.Text==""||cbx_marital_status.Text==""||cbx_status_employee.Text==""||txt_phone_1.Text==""||txt_curent_address.Text=="")
+                if (txt_coy_id.Text == "" || cbx_marital_status.Text == "" || cbx_status_employee.Text == "" || txt_phone_1.Text == "" || txt_curent_address.Text == ""||cbx_type_contrat.Text=="")
                 {
                     MessageBox.Show("Complete all required informations!");
                 }
                 else
                 {
-                    rps.modifier_engagement_employee(Convert.ToInt32(txt_id_engagement.Text),txt_coy_id.Text, dt_date_hiring.Value, cbx_status_employee.Text, txt_curent_address.Text, cbx_marital_status.Text, txt_phone_1.Text, txt_phone_2.Text);
+                    rps.modifier_engagement_employee(Convert.ToInt32(txt_id_engagement.Text),txt_coy_id.Text, dt_date_hiring.Value, cbx_status_employee.Text, txt_curent_address.Text, cbx_marital_status.Text, txt_phone_1.Text, txt_phone_2.Text, dt_fin_contrat.Value,cbx_type_contrat.Text);
                     MessageBox.Show(this, "Informations have been successfully recorded!", "Successful Recording!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     refresh_Data();
                 }
@@ -65,7 +65,7 @@ namespace KongoRiver_Employees._Interfaces._UserControls
                 }
                 else
                 {
-                    rps.enregistrer_engagement_employee(txt_coy_id.Text, dt_date_hiring.Value, cbx_status_employee.Text, txt_curent_address.Text, cbx_marital_status.Text, txt_phone_1.Text, txt_phone_2.Text);
+                    rps.enregistrer_engagement_employee(txt_coy_id.Text, dt_date_hiring.Value, cbx_status_employee.Text, txt_curent_address.Text, cbx_marital_status.Text, txt_phone_1.Text, txt_phone_2.Text, dt_fin_contrat.Value, cbx_type_contrat.Text);
                     MessageBox.Show(this, "Informations have been successfully recorded!", "Successful Recording!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     refresh_Data();
                 }
@@ -84,7 +84,7 @@ namespace KongoRiver_Employees._Interfaces._UserControls
                 rs = MessageBox.Show("please confirm with OK to delete this information", "Deletion confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (rs == DialogResult.Yes)
                 {
-                    rps.modifier_engagement_employee(Convert.ToInt32(txt_id_engagement.Text), txt_coy_id.Text, Convert.ToDateTime(dt_date_hiring.Value), cbx_status_employee.Text, txt_curent_address.Text, cbx_marital_status.Text, txt_phone_1.Text, txt_phone_2.Text);
+                    rps.modifier_engagement_employee(Convert.ToInt32(txt_id_engagement.Text), txt_coy_id.Text, Convert.ToDateTime(dt_date_hiring.Value), cbx_status_employee.Text, txt_curent_address.Text, cbx_marital_status.Text, txt_phone_1.Text, txt_phone_2.Text, dt_fin_contrat.Value, cbx_type_contrat.Text);
                     refresh_Data();
                     MessageBox.Show(this, "successful deletion!", "Suppression Reussie", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }

@@ -568,7 +568,7 @@ namespace KongoRiver_Employees._Codes
                 cnx.Close(); cnx.Dispose();
             }
         }
-        public void enregistrer_engagement_employee(string coy_ID, DateTime date_engagement, string id_status_employee, string current_adress, string marital_status, string telephone_1, string telephone_2)
+        public void enregistrer_engagement_employee(string coy_ID, DateTime date_engagement, string id_status_employee, string current_adress, string marital_status, string telephone_1, string telephone_2, DateTime date_fin_contrat, string id_contract)
         {
             cnx = new SqlConnection(prms.ToString());
             try
@@ -581,11 +581,13 @@ namespace KongoRiver_Employees._Codes
                 };
                 cmd.Parameters.Add(new SqlParameter("coy_ID", SqlDbType.NVarChar)).Value = coy_ID;
                 cmd.Parameters.Add(new SqlParameter("date_engagement", SqlDbType.Date)).Value = date_engagement;
+                cmd.Parameters.Add(new SqlParameter("date_fin_contrat", SqlDbType.Date)).Value = date_fin_contrat;
                 cmd.Parameters.Add(new SqlParameter("id_status_employee", SqlDbType.NVarChar)).Value = id_status_employee;
                 cmd.Parameters.Add(new SqlParameter("current_adress", SqlDbType.NVarChar)).Value = current_adress;
                 cmd.Parameters.Add(new SqlParameter("marital_status", SqlDbType.NVarChar)).Value = marital_status;
                 cmd.Parameters.Add(new SqlParameter("telephone_1", SqlDbType.NVarChar)).Value = telephone_1;
                 cmd.Parameters.Add(new SqlParameter("telephone_2", SqlDbType.NVarChar)).Value = telephone_2;
+                cmd.Parameters.Add(new SqlParameter("id_contract", SqlDbType.NVarChar)).Value = id_contract;
                 cmd.ExecuteNonQuery();
                 //afficher_frais(dtg);                
             }
@@ -603,7 +605,7 @@ namespace KongoRiver_Employees._Codes
                 cnx.Close(); cnx.Dispose();
             }
         }
-        public void modifier_engagement_employee(int id_engagement_employee, string coy_ID, DateTime date_engagement, string id_status_employee, string current_adress, string marital_status, string telephone_1, string telephone_2)
+        public void modifier_engagement_employee(int id_engagement_employee, string coy_ID, DateTime date_engagement, string id_status_employee, string current_adress, string marital_status, string telephone_1, string telephone_2, DateTime date_fin_contrat, string id_contract)
         {
             cnx = new SqlConnection(prms.ToString());
             try
@@ -617,11 +619,13 @@ namespace KongoRiver_Employees._Codes
                 cmd.Parameters.Add(new SqlParameter("id_engagement_employee", SqlDbType.Int)).Value = id_engagement_employee;
                 cmd.Parameters.Add(new SqlParameter("coy_ID", SqlDbType.NVarChar)).Value = coy_ID;
                 cmd.Parameters.Add(new SqlParameter("date_engagement", SqlDbType.Date)).Value = date_engagement;
+                cmd.Parameters.Add(new SqlParameter("date_fin_contrat", SqlDbType.Date)).Value = date_fin_contrat;
                 cmd.Parameters.Add(new SqlParameter("id_status_employee", SqlDbType.NVarChar)).Value = id_status_employee;
                 cmd.Parameters.Add(new SqlParameter("current_adress", SqlDbType.NVarChar)).Value = current_adress;
                 cmd.Parameters.Add(new SqlParameter("marital_status", SqlDbType.NVarChar)).Value = marital_status;
                 cmd.Parameters.Add(new SqlParameter("telephone_1", SqlDbType.NVarChar)).Value = telephone_1;
                 cmd.Parameters.Add(new SqlParameter("telephone_2", SqlDbType.NVarChar)).Value = telephone_2;
+                cmd.Parameters.Add(new SqlParameter("id_contract", SqlDbType.NVarChar)).Value = id_contract;
                 cmd.ExecuteNonQuery();
                 //afficher_frais(dtg);                
             }

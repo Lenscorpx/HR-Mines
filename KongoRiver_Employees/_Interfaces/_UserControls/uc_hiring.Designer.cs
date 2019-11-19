@@ -34,6 +34,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cbx_type_contrat = new MetroFramework.Controls.MetroComboBox();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.dt_fin_contrat = new MetroFramework.Controls.MetroDateTime();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
@@ -54,11 +59,6 @@
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.dt_date_hiring = new MetroFramework.Controls.MetroDateTime();
             this.txt_coy_id = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
-            this.cbx_type_contrat = new MetroFramework.Controls.MetroComboBox();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
@@ -70,7 +70,7 @@
             this.panel2.Controls.Add(this.cbx_type_contrat);
             this.panel2.Controls.Add(this.materialLabel8);
             this.panel2.Controls.Add(this.materialLabel7);
-            this.panel2.Controls.Add(this.metroDateTime1);
+            this.panel2.Controls.Add(this.dt_fin_contrat);
             this.panel2.Controls.Add(this.materialLabel2);
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.materialLabel5);
@@ -96,6 +96,70 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1007, 576);
             this.panel2.TabIndex = 1;
+            // 
+            // cbx_type_contrat
+            // 
+            this.cbx_type_contrat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.cbx_type_contrat.FontSize = MetroFramework.MetroComboBoxSize.Small;
+            this.cbx_type_contrat.FormattingEnabled = true;
+            this.cbx_type_contrat.ItemHeight = 19;
+            this.cbx_type_contrat.Location = new System.Drawing.Point(440, 125);
+            this.cbx_type_contrat.Name = "cbx_type_contrat";
+            this.cbx_type_contrat.Size = new System.Drawing.Size(191, 25);
+            this.cbx_type_contrat.TabIndex = 224;
+            this.cbx_type_contrat.UseSelectable = true;
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.Location = new System.Drawing.Point(311, 128);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(103, 19);
+            this.materialLabel8.TabIndex = 223;
+            this.materialLabel8.Text = "Contract Type";
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.Location = new System.Drawing.Point(311, 95);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(69, 19);
+            this.materialLabel7.TabIndex = 222;
+            this.materialLabel7.Text = "End Date";
+            // 
+            // dt_fin_contrat
+            // 
+            this.dt_fin_contrat.FontSize = MetroFramework.MetroDateTimeSize.Small;
+            this.dt_fin_contrat.FontWeight = MetroFramework.MetroDateTimeWeight.Light;
+            this.dt_fin_contrat.Location = new System.Drawing.Point(439, 94);
+            this.dt_fin_contrat.MinimumSize = new System.Drawing.Size(0, 25);
+            this.dt_fin_contrat.Name = "dt_fin_contrat";
+            this.dt_fin_contrat.Size = new System.Drawing.Size(191, 25);
+            this.dt_fin_contrat.TabIndex = 221;
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(311, 67);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(76, 19);
+            this.materialLabel2.TabIndex = 220;
+            this.materialLabel2.Text = "Start Date";
             // 
             // panel1
             // 
@@ -429,70 +493,6 @@
             this.txt_coy_id.UseSystemPasswordChar = false;
             this.txt_coy_id.TextChanged += new System.EventHandler(this.txt_coy_id_TextChanged);
             // 
-            // materialLabel2
-            // 
-            this.materialLabel2.AutoSize = true;
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(311, 67);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(76, 19);
-            this.materialLabel2.TabIndex = 220;
-            this.materialLabel2.Text = "Start Date";
-            // 
-            // materialLabel7
-            // 
-            this.materialLabel7.AutoSize = true;
-            this.materialLabel7.Depth = 0;
-            this.materialLabel7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel7.Location = new System.Drawing.Point(311, 95);
-            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(69, 19);
-            this.materialLabel7.TabIndex = 222;
-            this.materialLabel7.Text = "End Date";
-            // 
-            // metroDateTime1
-            // 
-            this.metroDateTime1.FontSize = MetroFramework.MetroDateTimeSize.Small;
-            this.metroDateTime1.FontWeight = MetroFramework.MetroDateTimeWeight.Light;
-            this.metroDateTime1.Location = new System.Drawing.Point(439, 94);
-            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 25);
-            this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.Size = new System.Drawing.Size(191, 25);
-            this.metroDateTime1.TabIndex = 221;
-            // 
-            // cbx_type_contrat
-            // 
-            this.cbx_type_contrat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.cbx_type_contrat.FontSize = MetroFramework.MetroComboBoxSize.Small;
-            this.cbx_type_contrat.FormattingEnabled = true;
-            this.cbx_type_contrat.ItemHeight = 19;
-            this.cbx_type_contrat.Location = new System.Drawing.Point(440, 125);
-            this.cbx_type_contrat.Name = "cbx_type_contrat";
-            this.cbx_type_contrat.Size = new System.Drawing.Size(191, 25);
-            this.cbx_type_contrat.TabIndex = 224;
-            this.cbx_type_contrat.UseSelectable = true;
-            // 
-            // materialLabel8
-            // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel8.Location = new System.Drawing.Point(311, 128);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(103, 19);
-            this.materialLabel8.TabIndex = 223;
-            this.materialLabel8.Text = "Contract Type";
-            // 
             // uc_hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -534,7 +534,7 @@
         private MetroFramework.Controls.MetroComboBox cbx_type_contrat;
         private MaterialSkin.Controls.MaterialLabel materialLabel8;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private MetroFramework.Controls.MetroDateTime metroDateTime1;
+        private MetroFramework.Controls.MetroDateTime dt_fin_contrat;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
     }
 }
