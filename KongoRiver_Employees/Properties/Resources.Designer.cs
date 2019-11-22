@@ -303,9 +303,29 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dashboard {
+            get {
+                object obj = ResourceManager.GetObject("dashboard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap driver_license_card_filled {
             get {
                 object obj = ResourceManager.GetObject("driver-license-card-filled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap employees {
+            get {
+                object obj = ResourceManager.GetObject("employees", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +356,16 @@ namespace KongoRiver_Employees.Properties {
         internal static System.Drawing.Bitmap ExpatChild_Logo {
             get {
                 object obj = ResourceManager.GetObject("ExpatChild-Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fermer_window {
+            get {
+                object obj = ResourceManager.GetObject("Fermer_window", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -376,6 +406,16 @@ namespace KongoRiver_Employees.Properties {
         internal static System.Drawing.Bitmap insankaynak {
             get {
                 object obj = ResourceManager.GetObject("insankaynak", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leave {
+            get {
+                object obj = ResourceManager.GetObject("leave", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -456,6 +496,16 @@ namespace KongoRiver_Employees.Properties {
         internal static System.Drawing.Bitmap settings_512 {
             get {
                 object obj = ResourceManager.GetObject("settings-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sites_localisation {
+            get {
+                object obj = ResourceManager.GetObject("sites_localisation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -90,6 +90,12 @@
     <Compile Include="_Interfaces\_Forms\frm_family.Designer.cs">
       <DependentUpon>frm_family.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_home.Designer.cs">
+      <DependentUpon>frm_home.cs</DependentUpon>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -270,6 +276,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_family.resx">
       <DependentUpon>frm_family.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_home.resx">
+      <DependentUpon>frm_home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_menu.resx">
       <DependentUpon>frm_menu.cs</DependentUpon>
@@ -487,6 +496,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img_335918.ico" />
+    <None Include="Resources\leave.png" />
+    <None Include="Resources\sites_localisation.png" />
+    <None Include="Resources\employees.png" />
+    <None Include="Resources\dashboard.png" />
+    <None Include="Resources\Fermer_window.png" />
     <None Include="Resources\Alphamin.png" />
     <None Include="Resources\logo alphamine.jpg" />
     <None Include="Resources\insankaynak.png" />

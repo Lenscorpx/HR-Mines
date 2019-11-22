@@ -16,5 +16,15 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
             InitializeComponent();
         }
+
+        private void bunifuTileButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btn_fermer_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
