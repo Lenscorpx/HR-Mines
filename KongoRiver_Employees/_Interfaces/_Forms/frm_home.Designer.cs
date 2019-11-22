@@ -29,14 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_home));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuTileButton5 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton6 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton7 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton8 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.btn_settings = new Bunifu.Framework.UI.BunifuTileButton();
+            this.btn_reports = new Bunifu.Framework.UI.BunifuTileButton();
+            this.btn_rr = new Bunifu.Framework.UI.BunifuTileButton();
+            this.btn_flights = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_leave = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_sites = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_employees = new Bunifu.Framework.UI.BunifuTileButton();
@@ -74,81 +73,81 @@
             this.label1.Text = "Andrea - Menu Principal";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuTileButton5
+            // btn_settings
             // 
-            this.bunifuTileButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton5.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton5.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuTileButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton5.Font = new System.Drawing.Font("Century Gothic", 15.75F);
-            this.bunifuTileButton5.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton5.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton5.Image")));
-            this.bunifuTileButton5.ImagePosition = 20;
-            this.bunifuTileButton5.ImageZoom = 50;
-            this.bunifuTileButton5.LabelPosition = 41;
-            this.bunifuTileButton5.LabelText = "Employees";
-            this.bunifuTileButton5.Location = new System.Drawing.Point(977, 400);
-            this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton5.Name = "bunifuTileButton5";
-            this.bunifuTileButton5.Size = new System.Drawing.Size(211, 175);
-            this.bunifuTileButton5.TabIndex = 8;
+            this.btn_settings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_settings.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_settings.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.btn_settings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_settings.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_settings.ForeColor = System.Drawing.Color.White;
+            this.btn_settings.Image = global::KongoRiver_Employees.Properties.Resources.settings_3_96px;
+            this.btn_settings.ImagePosition = 20;
+            this.btn_settings.ImageZoom = 50;
+            this.btn_settings.LabelPosition = 41;
+            this.btn_settings.LabelText = "Settings";
+            this.btn_settings.Location = new System.Drawing.Point(977, 400);
+            this.btn_settings.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_settings.Name = "btn_settings";
+            this.btn_settings.Size = new System.Drawing.Size(211, 175);
+            this.btn_settings.TabIndex = 8;
             // 
-            // bunifuTileButton6
+            // btn_reports
             // 
-            this.bunifuTileButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton6.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton6.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuTileButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton6.Font = new System.Drawing.Font("Century Gothic", 15.75F);
-            this.bunifuTileButton6.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton6.Image")));
-            this.bunifuTileButton6.ImagePosition = 20;
-            this.bunifuTileButton6.ImageZoom = 50;
-            this.bunifuTileButton6.LabelPosition = 41;
-            this.bunifuTileButton6.LabelText = "Employees";
-            this.bunifuTileButton6.Location = new System.Drawing.Point(685, 400);
-            this.bunifuTileButton6.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton6.Name = "bunifuTileButton6";
-            this.bunifuTileButton6.Size = new System.Drawing.Size(211, 175);
-            this.bunifuTileButton6.TabIndex = 7;
+            this.btn_reports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_reports.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_reports.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.btn_reports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_reports.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_reports.ForeColor = System.Drawing.Color.White;
+            this.btn_reports.Image = global::KongoRiver_Employees.Properties.Resources.reports;
+            this.btn_reports.ImagePosition = 20;
+            this.btn_reports.ImageZoom = 50;
+            this.btn_reports.LabelPosition = 41;
+            this.btn_reports.LabelText = "Reports";
+            this.btn_reports.Location = new System.Drawing.Point(685, 400);
+            this.btn_reports.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_reports.Name = "btn_reports";
+            this.btn_reports.Size = new System.Drawing.Size(211, 175);
+            this.btn_reports.TabIndex = 7;
             // 
-            // bunifuTileButton7
+            // btn_rr
             // 
-            this.bunifuTileButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton7.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton7.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuTileButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton7.Font = new System.Drawing.Font("Century Gothic", 15.75F);
-            this.bunifuTileButton7.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton7.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton7.Image")));
-            this.bunifuTileButton7.ImagePosition = 20;
-            this.bunifuTileButton7.ImageZoom = 50;
-            this.bunifuTileButton7.LabelPosition = 41;
-            this.bunifuTileButton7.LabelText = "Employees";
-            this.bunifuTileButton7.Location = new System.Drawing.Point(393, 400);
-            this.bunifuTileButton7.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton7.Name = "bunifuTileButton7";
-            this.bunifuTileButton7.Size = new System.Drawing.Size(211, 175);
-            this.bunifuTileButton7.TabIndex = 6;
+            this.btn_rr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_rr.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_rr.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.btn_rr.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_rr.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_rr.ForeColor = System.Drawing.Color.White;
+            this.btn_rr.Image = global::KongoRiver_Employees.Properties.Resources.rr;
+            this.btn_rr.ImagePosition = 20;
+            this.btn_rr.ImageZoom = 50;
+            this.btn_rr.LabelPosition = 41;
+            this.btn_rr.LabelText = "R.R Management";
+            this.btn_rr.Location = new System.Drawing.Point(393, 400);
+            this.btn_rr.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_rr.Name = "btn_rr";
+            this.btn_rr.Size = new System.Drawing.Size(211, 175);
+            this.btn_rr.TabIndex = 6;
             // 
-            // bunifuTileButton8
+            // btn_flights
             // 
-            this.bunifuTileButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton8.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuTileButton8.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuTileButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton8.Font = new System.Drawing.Font("Century Gothic", 15.75F);
-            this.bunifuTileButton8.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton8.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton8.Image")));
-            this.bunifuTileButton8.ImagePosition = 20;
-            this.bunifuTileButton8.ImageZoom = 50;
-            this.bunifuTileButton8.LabelPosition = 41;
-            this.bunifuTileButton8.LabelText = "Employees";
-            this.bunifuTileButton8.Location = new System.Drawing.Point(103, 400);
-            this.bunifuTileButton8.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton8.Name = "bunifuTileButton8";
-            this.bunifuTileButton8.Size = new System.Drawing.Size(211, 175);
-            this.bunifuTileButton8.TabIndex = 5;
+            this.btn_flights.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_flights.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_flights.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.btn_flights.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_flights.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_flights.ForeColor = System.Drawing.Color.White;
+            this.btn_flights.Image = global::KongoRiver_Employees.Properties.Resources.flight;
+            this.btn_flights.ImagePosition = 20;
+            this.btn_flights.ImageZoom = 50;
+            this.btn_flights.LabelPosition = 41;
+            this.btn_flights.LabelText = "Flights";
+            this.btn_flights.Location = new System.Drawing.Point(103, 400);
+            this.btn_flights.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_flights.Name = "btn_flights";
+            this.btn_flights.Size = new System.Drawing.Size(211, 175);
+            this.btn_flights.TabIndex = 5;
             // 
             // btn_leave
             // 
@@ -245,10 +244,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(85)))), ((int)(((byte)(142)))));
             this.ClientSize = new System.Drawing.Size(1316, 681);
-            this.Controls.Add(this.bunifuTileButton5);
-            this.Controls.Add(this.bunifuTileButton6);
-            this.Controls.Add(this.bunifuTileButton7);
-            this.Controls.Add(this.bunifuTileButton8);
+            this.Controls.Add(this.btn_settings);
+            this.Controls.Add(this.btn_reports);
+            this.Controls.Add(this.btn_rr);
+            this.Controls.Add(this.btn_flights);
             this.Controls.Add(this.btn_leave);
             this.Controls.Add(this.btn_sites);
             this.Controls.Add(this.btn_employees);
@@ -277,9 +276,9 @@
         private Bunifu.Framework.UI.BunifuTileButton btn_employees;
         private Bunifu.Framework.UI.BunifuTileButton btn_sites;
         private Bunifu.Framework.UI.BunifuTileButton btn_leave;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton5;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton6;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton7;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton8;
+        private Bunifu.Framework.UI.BunifuTileButton btn_settings;
+        private Bunifu.Framework.UI.BunifuTileButton btn_reports;
+        private Bunifu.Framework.UI.BunifuTileButton btn_rr;
+        private Bunifu.Framework.UI.BunifuTileButton btn_flights;
     }
 }

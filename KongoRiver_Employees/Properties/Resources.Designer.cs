@@ -373,6 +373,16 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flight {
+            get {
+                object obj = ResourceManager.GetObject("flight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hold_512 {
             get {
                 object obj = ResourceManager.GetObject("hold-512", resourceCulture);
@@ -483,9 +493,39 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap reports {
+            get {
+                object obj = ResourceManager.GetObject("reports", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap resume_icon_png_4 {
             get {
                 object obj = ResourceManager.GetObject("resume-icon-png-4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rr {
+            get {
+                object obj = ResourceManager.GetObject("rr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_3_96px {
+            get {
+                object obj = ResourceManager.GetObject("settings_3_96px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
