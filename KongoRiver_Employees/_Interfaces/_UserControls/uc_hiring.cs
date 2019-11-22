@@ -84,7 +84,7 @@ namespace KongoRiver_Employees._Interfaces._UserControls
                 rs = MessageBox.Show("please confirm with OK to delete this information", "Deletion confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (rs == DialogResult.Yes)
                 {
-                    rps.modifier_engagement_employee(Convert.ToInt32(txt_id_engagement.Text), txt_coy_id.Text, Convert.ToDateTime(dt_date_hiring.Value), cbx_status_employee.Text, txt_curent_address.Text, cbx_marital_status.Text, txt_phone_1.Text, txt_phone_2.Text, dt_fin_contrat.Value, cbx_type_contrat.Text);
+                    rps.supprimer_engagement_employee(Convert.ToInt32(txt_id_engagement.Text));
                     refresh_Data();
                     MessageBox.Show(this, "successful deletion!", "Suppression Reussie", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
