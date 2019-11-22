@@ -643,7 +643,7 @@ namespace KongoRiver_Employees._Codes
                 cnx.Close(); cnx.Dispose();
             }
         }
-        public void supprimer_engagement_employee(int id_engagement_employee, string coy_ID, DateTime date_engagement, string id_status_employee, string current_adress, string marital_status, string telephone_1, string telephone_2)
+        public void supprimer_engagement_employee(int id_engagement_employee)
         {
             cnx = new SqlConnection(prms.ToString());
             try
