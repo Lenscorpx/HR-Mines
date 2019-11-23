@@ -496,6 +496,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img_335918.ico" />
+    <None Include="Resources\settings_3_96px.png" />
+    <None Include="Resources\reports.png" />
+    <None Include="Resources\rr.png" />
+    <None Include="Resources\flight.png" />
     <None Include="Resources\leave.png" />
     <None Include="Resources\sites_localisation.png" />
     <None Include="Resources\employees.png" />
