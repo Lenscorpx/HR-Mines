@@ -114,6 +114,12 @@
     <Compile Include="_Interfaces\_Forms\frm_parameters.Designer.cs">
       <DependentUpon>frm_parameters.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Interfaces\_SubForms\frm_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_SubForms\frm_employee.Designer.cs">
+      <DependentUpon>frm_employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_accueil.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -288,6 +294,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_parameters.resx">
       <DependentUpon>frm_parameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_SubForms\frm_employee.resx">
+      <DependentUpon>frm_employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_UserControls\uc_accueil.resx">
       <DependentUpon>uc_accueil.cs</DependentUpon>
@@ -496,6 +505,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img_335918.ico" />
+    <None Include="Resources\home.png" />
     <None Include="Resources\settings_3_96px.png" />
     <None Include="Resources\reports.png" />
     <None Include="Resources\rr.png" />
