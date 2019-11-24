@@ -30,8 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_fermer = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.btn_settings = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_reports = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_rr = new Bunifu.Framework.UI.BunifuTileButton();
@@ -40,7 +41,6 @@
             this.btn_sites = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_employees = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_dashboard = new Bunifu.Framework.UI.BunifuTileButton();
-            this.btn_fermer = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_fermer)).BeginInit();
             this.SuspendLayout();
@@ -56,13 +56,6 @@
             this.panel1.Size = new System.Drawing.Size(1316, 54);
             this.panel1.TabIndex = 0;
             // 
-            // bunifuDragControl1
-            // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this.panel1;
-            this.bunifuDragControl1.Vertical = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -73,13 +66,34 @@
             this.label1.Text = "Andrea - Menu Principal";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn_fermer
+            // 
+            this.btn_fermer.BackColor = System.Drawing.Color.Transparent;
+            this.btn_fermer.Image = global::KongoRiver_Employees.Properties.Resources.Fermer_window;
+            this.btn_fermer.ImageActive = null;
+            this.btn_fermer.Location = new System.Drawing.Point(1256, 3);
+            this.btn_fermer.Name = "btn_fermer";
+            this.btn_fermer.Size = new System.Drawing.Size(57, 48);
+            this.btn_fermer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_fermer.TabIndex = 1;
+            this.btn_fermer.TabStop = false;
+            this.btn_fermer.Zoom = 10;
+            this.btn_fermer.Click += new System.EventHandler(this.btn_fermer_Click);
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.panel1;
+            this.bunifuDragControl1.Vertical = true;
+            // 
             // btn_settings
             // 
             this.btn_settings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_settings.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_settings.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_settings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_settings.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_settings.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_settings.ForeColor = System.Drawing.Color.White;
             this.btn_settings.Image = global::KongoRiver_Employees.Properties.Resources.settings_3_96px;
             this.btn_settings.ImagePosition = 20;
@@ -98,7 +112,7 @@
             this.btn_reports.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_reports.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_reports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_reports.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_reports.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_reports.ForeColor = System.Drawing.Color.White;
             this.btn_reports.Image = global::KongoRiver_Employees.Properties.Resources.reports;
             this.btn_reports.ImagePosition = 20;
@@ -117,7 +131,7 @@
             this.btn_rr.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_rr.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_rr.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_rr.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_rr.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_rr.ForeColor = System.Drawing.Color.White;
             this.btn_rr.Image = global::KongoRiver_Employees.Properties.Resources.rr;
             this.btn_rr.ImagePosition = 20;
@@ -136,7 +150,7 @@
             this.btn_flights.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_flights.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_flights.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_flights.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_flights.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_flights.ForeColor = System.Drawing.Color.White;
             this.btn_flights.Image = global::KongoRiver_Employees.Properties.Resources.flight;
             this.btn_flights.ImagePosition = 20;
@@ -155,7 +169,7 @@
             this.btn_leave.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_leave.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_leave.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_leave.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_leave.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_leave.ForeColor = System.Drawing.Color.White;
             this.btn_leave.Image = global::KongoRiver_Employees.Properties.Resources.leave;
             this.btn_leave.ImagePosition = 20;
@@ -174,7 +188,7 @@
             this.btn_sites.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_sites.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_sites.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_sites.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_sites.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_sites.ForeColor = System.Drawing.Color.White;
             this.btn_sites.Image = global::KongoRiver_Employees.Properties.Resources.sites_localisation;
             this.btn_sites.ImagePosition = 20;
@@ -193,7 +207,7 @@
             this.btn_employees.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_employees.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_employees.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_employees.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_employees.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_employees.ForeColor = System.Drawing.Color.White;
             this.btn_employees.Image = global::KongoRiver_Employees.Properties.Resources.employees;
             this.btn_employees.ImagePosition = 20;
@@ -212,7 +226,7 @@
             this.btn_dashboard.color = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.btn_dashboard.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.btn_dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_dashboard.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.btn_dashboard.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btn_dashboard.ForeColor = System.Drawing.Color.White;
             this.btn_dashboard.Image = global::KongoRiver_Employees.Properties.Resources.dashboard;
             this.btn_dashboard.ImagePosition = 20;
@@ -224,20 +238,6 @@
             this.btn_dashboard.Name = "btn_dashboard";
             this.btn_dashboard.Size = new System.Drawing.Size(211, 175);
             this.btn_dashboard.TabIndex = 1;
-            // 
-            // btn_fermer
-            // 
-            this.btn_fermer.BackColor = System.Drawing.Color.Transparent;
-            this.btn_fermer.Image = global::KongoRiver_Employees.Properties.Resources.Fermer_window;
-            this.btn_fermer.ImageActive = null;
-            this.btn_fermer.Location = new System.Drawing.Point(1256, 3);
-            this.btn_fermer.Name = "btn_fermer";
-            this.btn_fermer.Size = new System.Drawing.Size(57, 48);
-            this.btn_fermer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_fermer.TabIndex = 1;
-            this.btn_fermer.TabStop = false;
-            this.btn_fermer.Zoom = 10;
-            this.btn_fermer.Click += new System.EventHandler(this.btn_fermer_Click);
             // 
             // frm_home
             // 
