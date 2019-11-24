@@ -32,7 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>img_335918.ico</ApplicationIcon>
+    <ApplicationIcon>FormatFactorylogo_andrea.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>KongoRiver_Employees.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
@@ -113,6 +116,12 @@
     </Compile>
     <Compile Include="_Interfaces\_Forms\frm_parameters.Designer.cs">
       <DependentUpon>frm_parameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_SubForms\frm_alertes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_SubForms\frm_alertes.Designer.cs">
+      <DependentUpon>frm_alertes.cs</DependentUpon>
     </Compile>
     <Compile Include="_Interfaces\_SubForms\frm_employee.cs">
       <SubType>Form</SubType>
@@ -504,7 +513,9 @@
     <None Include="Resources\2000px-Noun_project_1063.svg.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FormatFactorylogo_andrea.ico" />
     <Content Include="img_335918.ico" />
+    <Content Include="logo_andrea.ico" />
     <None Include="Resources\home.png" />
     <None Include="Resources\settings_3_96px.png" />
     <None Include="Resources\reports.png" />
