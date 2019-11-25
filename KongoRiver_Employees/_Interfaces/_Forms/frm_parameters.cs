@@ -12,7 +12,7 @@ using KongoRiver_Employees._Interfaces._UserControls;
 
 namespace KongoRiver_Employees._Interfaces._Forms
 {
-    public partial class frm_parameters : MetroForm
+    public partial class frm_parameters : Form
     {
         public frm_parameters()
         {

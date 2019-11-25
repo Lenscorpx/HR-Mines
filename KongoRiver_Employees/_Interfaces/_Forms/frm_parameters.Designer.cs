@@ -362,10 +362,10 @@
             this.MaximizeBox = false;
             this.Name = "frm_parameters";
             this.Opacity = 0.9D;
-            this.Resizable = false;
+            //this.Resizable = false;
             this.ShowIcon = false;
             this.Text = "Settings";
-            this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            //this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
