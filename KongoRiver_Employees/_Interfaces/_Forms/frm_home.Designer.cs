@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_home));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
@@ -145,7 +145,7 @@
             this.btn_settings.ImageZoom = 50;
             this.btn_settings.LabelPosition = 44;
             this.btn_settings.LabelText = "Settings";
-            this.btn_settings.Location = new System.Drawing.Point(1013, 353);
+            this.btn_settings.Location = new System.Drawing.Point(1013, 347);
             this.btn_settings.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_settings.Name = "btn_settings";
             this.btn_settings.Size = new System.Drawing.Size(244, 190);
@@ -165,7 +165,7 @@
             this.btn_reports.ImageZoom = 50;
             this.btn_reports.LabelPosition = 44;
             this.btn_reports.LabelText = "Reports";
-            this.btn_reports.Location = new System.Drawing.Point(681, 353);
+            this.btn_reports.Location = new System.Drawing.Point(694, 347);
             this.btn_reports.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_reports.Name = "btn_reports";
             this.btn_reports.Size = new System.Drawing.Size(244, 190);
@@ -185,7 +185,7 @@
             this.btn_rr.ImageZoom = 50;
             this.btn_rr.LabelPosition = 44;
             this.btn_rr.LabelText = "R.R Management";
-            this.btn_rr.Location = new System.Drawing.Point(394, 353);
+            this.btn_rr.Location = new System.Drawing.Point(378, 347);
             this.btn_rr.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_rr.Name = "btn_rr";
             this.btn_rr.Size = new System.Drawing.Size(244, 190);
@@ -205,7 +205,7 @@
             this.btn_flights.ImageZoom = 50;
             this.btn_flights.LabelPosition = 44;
             this.btn_flights.LabelText = "Flights";
-            this.btn_flights.Location = new System.Drawing.Point(59, 353);
+            this.btn_flights.Location = new System.Drawing.Point(59, 347);
             this.btn_flights.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_flights.Name = "btn_flights";
             this.btn_flights.Size = new System.Drawing.Size(244, 190);
@@ -225,7 +225,7 @@
             this.btn_leave.ImageZoom = 50;
             this.btn_leave.LabelPosition = 44;
             this.btn_leave.LabelText = "Leaves";
-            this.btn_leave.Location = new System.Drawing.Point(1013, 83);
+            this.btn_leave.Location = new System.Drawing.Point(1013, 89);
             this.btn_leave.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_leave.Name = "btn_leave";
             this.btn_leave.Size = new System.Drawing.Size(244, 190);
@@ -245,7 +245,7 @@
             this.btn_sites.ImageZoom = 50;
             this.btn_sites.LabelPosition = 44;
             this.btn_sites.LabelText = "Sites";
-            this.btn_sites.Location = new System.Drawing.Point(681, 83);
+            this.btn_sites.Location = new System.Drawing.Point(694, 89);
             this.btn_sites.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_sites.Name = "btn_sites";
             this.btn_sites.Size = new System.Drawing.Size(244, 190);
@@ -265,7 +265,7 @@
             this.btn_employees.ImageZoom = 50;
             this.btn_employees.LabelPosition = 44;
             this.btn_employees.LabelText = "Employees";
-            this.btn_employees.Location = new System.Drawing.Point(394, 83);
+            this.btn_employees.Location = new System.Drawing.Point(378, 89);
             this.btn_employees.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_employees.Name = "btn_employees";
             this.btn_employees.Size = new System.Drawing.Size(244, 190);
@@ -286,7 +286,7 @@
             this.btn_dashboard.ImageZoom = 50;
             this.btn_dashboard.LabelPosition = 44;
             this.btn_dashboard.LabelText = "Dashboard";
-            this.btn_dashboard.Location = new System.Drawing.Point(59, 83);
+            this.btn_dashboard.Location = new System.Drawing.Point(59, 89);
             this.btn_dashboard.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btn_dashboard.Name = "btn_dashboard";
             this.btn_dashboard.Size = new System.Drawing.Size(244, 190);
@@ -296,22 +296,22 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
             this.bunifuTransition1.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation2;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation1;
             this.bunifuTransition1.Interval = 20;
             // 
             // frm_home
