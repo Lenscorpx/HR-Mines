@@ -1,6 +1,6 @@
 ﻿namespace KongoRiver_Employees._Interfaces._SubForms
 {
-    partial class frm_employee
+    partial class frm_employees
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // frm_employee
+            // frm_employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1122, 494);
-            this.Name = "frm_employee";
-            this.Text = "frm_employee";
+            this.ClientSize = new System.Drawing.Size(1316, 681);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "frm_employees";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
         }

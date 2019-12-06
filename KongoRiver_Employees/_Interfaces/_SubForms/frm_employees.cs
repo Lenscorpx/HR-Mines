@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KongoRiver_Employees._Interfaces._SubForms
 {
-    public partial class frm_employee : Form
+    public partial class frm_employees : Form
     {
-        public frm_employee()
+        public frm_employees()
         {
             InitializeComponent();
         }
