@@ -113,9 +113,11 @@
     <Compile Include="_Interfaces\_SubForms\frm_alertes.Designer.cs">
       <DependentUpon>frm_alertes.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_SubForms\frm_employee.cs" />
-    <Compile Include="_Interfaces\_SubForms\frm_employee.Designer.cs">
-      <DependentUpon>frm_employee.cs</DependentUpon>
+    <Compile Include="_Interfaces\_SubForms\frm_employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_SubForms\frm_employees.Designer.cs">
+      <DependentUpon>frm_employees.cs</DependentUpon>
     </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_accueil.cs" />
     <Compile Include="_Interfaces\_UserControls\uc_accueil.Designer.cs">
@@ -246,8 +248,8 @@
     <EmbeddedResource Include="_Interfaces\_Forms\frm_parameters.resx">
       <DependentUpon>frm_parameters.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_Interfaces\_SubForms\frm_employee.resx">
-      <DependentUpon>frm_employee.cs</DependentUpon>
+    <EmbeddedResource Include="_Interfaces\_SubForms\frm_employees.resx">
+      <DependentUpon>frm_employees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_UserControls\uc_accueil.resx">
       <DependentUpon>uc_accueil.cs</DependentUpon>
