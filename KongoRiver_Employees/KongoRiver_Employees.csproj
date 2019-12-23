@@ -75,15 +75,21 @@
     <Compile Include="_Codes\Marital_Status.cs" />
     <Compile Include="_Codes\Params.cs" />
     <Compile Include="_Codes\Sexes.cs" />
-    <Compile Include="_Interfaces\_Forms\frm_alerte_visa.cs" />
+    <Compile Include="_Interfaces\_Forms\frm_alerte_visa.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_alerte_visa.Designer.cs">
       <DependentUpon>frm_alerte_visa.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_Forms\frm_documents.cs" />
+    <Compile Include="_Interfaces\_Forms\frm_documents.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_documents.Designer.cs">
       <DependentUpon>frm_documents.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_Forms\frm_family.cs" />
+    <Compile Include="_Interfaces\_Forms\frm_family.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_family.Designer.cs">
       <DependentUpon>frm_family.cs</DependentUpon>
     </Compile>
@@ -93,11 +99,15 @@
     <Compile Include="_Interfaces\_Forms\frm_home.Designer.cs">
       <DependentUpon>frm_home.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_Forms\frm_menu.cs" />
+    <Compile Include="_Interfaces\_Forms\frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_menu.Designer.cs">
       <DependentUpon>frm_menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_Forms\frm_operations.cs" />
+    <Compile Include="_Interfaces\_Forms\frm_operations.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_operations.Designer.cs">
       <DependentUpon>frm_operations.cs</DependentUpon>
     </Compile>
@@ -119,35 +129,51 @@
     <Compile Include="_Interfaces\_SubForms\frm_employees.Designer.cs">
       <DependentUpon>frm_employees.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_accueil.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_accueil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_accueil.Designer.cs">
       <DependentUpon>uc_accueil.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_affectation_site.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_affectation_site.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_affectation_site.Designer.cs">
       <DependentUpon>uc_affectation_site.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_banks.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_banks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_banks.Designer.cs">
       <DependentUpon>uc_banks.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_card_id.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_card_id.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_card_id.Designer.cs">
       <DependentUpon>uc_card_id.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_dashboard.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_dashboard.Designer.cs">
       <DependentUpon>uc_dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_department.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_department.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_department.Designer.cs">
       <DependentUpon>uc_department.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_documents_acc.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_documents_acc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_documents_acc.Designer.cs">
       <DependentUpon>uc_documents_acc.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_driving_license.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_driving_license.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_driving_license.Designer.cs">
       <DependentUpon>uc_driving_license.cs</DependentUpon>
     </Compile>
@@ -157,63 +183,93 @@
     <Compile Include="_Interfaces\_UserControls\uc_employee.Designer.cs">
       <DependentUpon>uc_employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_hiring.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_hiring.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_hiring.Designer.cs">
       <DependentUpon>uc_hiring.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_jobs.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_jobs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_jobs.Designer.cs">
       <DependentUpon>uc_jobs.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_leave_end.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_leave_end.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_leave_end.Designer.cs">
       <DependentUpon>uc_leave_end.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_leave_in.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_leave_in.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_leave_in.Designer.cs">
       <DependentUpon>uc_leave_in.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_passport.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_passport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_passport.Designer.cs">
       <DependentUpon>uc_passport.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_RR_type.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_RR_type.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_RR_type.Designer.cs">
       <DependentUpon>uc_RR_type.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_sites.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_sites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_sites.Designer.cs">
       <DependentUpon>uc_sites.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_splash_employ_ops.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_splash_employ_ops.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_splash_employ_ops.Designer.cs">
       <DependentUpon>uc_splash_employ_ops.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_splash_family.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_splash_family.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_splash_family.Designer.cs">
       <DependentUpon>uc_splash_family.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_splash_parameters.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_splash_parameters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_splash_parameters.Designer.cs">
       <DependentUpon>uc_splash_parameters.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_status_employee.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_status_employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_status_employee.Designer.cs">
       <DependentUpon>uc_status_employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_visa.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_visa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_visa.Designer.cs">
       <DependentUpon>uc_visa.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_visa_type.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_visa_type.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_visa_type.Designer.cs">
       <DependentUpon>uc_visa_type.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_vsr.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_vsr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_vsr.Designer.cs">
       <DependentUpon>uc_vsr.cs</DependentUpon>
     </Compile>
-    <Compile Include="_Interfaces\_UserControls\uc_waiting_room.cs" />
+    <Compile Include="_Interfaces\_UserControls\uc_waiting_room.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="_Interfaces\_UserControls\uc_waiting_room.Designer.cs">
       <DependentUpon>uc_waiting_room.cs</DependentUpon>
     </Compile>
