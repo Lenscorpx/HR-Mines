@@ -28,7 +28,7 @@ namespace KongoRiver_Employees._Codes
             //prms.Mot_de_passe = "12345678";
             prms.Serveur = "DESKTOP-PO0I2OH";
             prms.Base_de_donnees = "AndreaBD";
-            prms.Nom_user = "Lens";
+            prms.Nom_user = "sa";
             prms.Mot_de_passe = "Windy@2019.com?";
 
         }

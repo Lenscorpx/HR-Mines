@@ -94,14 +94,14 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void bunifuFlatButton8_Click(object sender, EventArgs e)
         {
-            bunifuFlatButton8.Focus();
-            var fr = new frm_family();
-            fr.Show();
-            bunifuFlatButton3.selected = false;
-            //bunifuFlatButton1.selected = false;
-            bunifuFlatButton2.selected = false;
-            bunifuFlatButton5.selected = false;
-            bunifuFlatButton7.selected = false;
+            //bunifuFlatButton8.Focus();
+            ////var fr = new frm_family();
+            //fr.Show();
+            //bunifuFlatButton3.selected = false;
+            ////bunifuFlatButton1.selected = false;
+            //bunifuFlatButton2.selected = false;
+            //bunifuFlatButton5.selected = false;
+            //bunifuFlatButton7.selected = false;
             //bunifuFlatButton8.selected = true;
             //bunifuFlatButton1.selected = false;
         }
