@@ -32,11 +32,10 @@
             BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_home));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_fermer = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.pnl_admin = new System.Windows.Forms.Panel();
+            this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.btn_settings = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_reports = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_rr = new Bunifu.Framework.UI.BunifuTileButton();
@@ -45,11 +44,12 @@
             this.btn_sites = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_employees = new Bunifu.Framework.UI.BunifuTileButton();
             this.btn_dashboard = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_fermer = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel1.SuspendLayout();
+            this.pnl_admin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_fermer)).BeginInit();
-            this.pnl_admin.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -65,21 +65,6 @@
             this.panel1.Size = new System.Drawing.Size(1316, 54);
             this.panel1.TabIndex = 0;
             // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.bunifuImageButton1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton1.Image = global::KongoRiver_Employees.Properties.Resources.home;
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(4, 3);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(57, 48);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 3;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -91,21 +76,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Andrea - Menu Principal";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btn_fermer
-            // 
-            this.btn_fermer.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.btn_fermer, BunifuAnimatorNS.DecorationType.None);
-            this.btn_fermer.Image = global::KongoRiver_Employees.Properties.Resources.Fermer_window;
-            this.btn_fermer.ImageActive = null;
-            this.btn_fermer.Location = new System.Drawing.Point(1256, 3);
-            this.btn_fermer.Name = "btn_fermer";
-            this.btn_fermer.Size = new System.Drawing.Size(57, 48);
-            this.btn_fermer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_fermer.TabIndex = 1;
-            this.btn_fermer.TabStop = false;
-            this.btn_fermer.Zoom = 10;
-            this.btn_fermer.Click += new System.EventHandler(this.btn_fermer_Click);
             // 
             // bunifuDragControl1
             // 
@@ -130,6 +100,28 @@
             this.pnl_admin.Name = "pnl_admin";
             this.pnl_admin.Size = new System.Drawing.Size(1316, 627);
             this.pnl_admin.TabIndex = 1;
+            // 
+            // bunifuTransition1
+            // 
+            this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
+            this.bunifuTransition1.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation1;
+            this.bunifuTransition1.Interval = 20;
             // 
             // btn_settings
             // 
@@ -250,6 +242,7 @@
             this.btn_sites.Name = "btn_sites";
             this.btn_sites.Size = new System.Drawing.Size(244, 190);
             this.btn_sites.TabIndex = 11;
+            this.btn_sites.Click += new System.EventHandler(this.btn_sites_Click);
             // 
             // btn_employees
             // 
@@ -292,27 +285,35 @@
             this.btn_dashboard.Size = new System.Drawing.Size(244, 190);
             this.btn_dashboard.TabIndex = 9;
             // 
-            // bunifuTransition1
+            // bunifuImageButton1
             // 
-            this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
-            this.bunifuTransition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation1;
-            this.bunifuTransition1.Interval = 20;
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.bunifuImageButton1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuImageButton1.Image = global::KongoRiver_Employees.Properties.Resources.home;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(4, 3);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(57, 48);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 3;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
+            // 
+            // btn_fermer
+            // 
+            this.btn_fermer.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.btn_fermer, BunifuAnimatorNS.DecorationType.None);
+            this.btn_fermer.Image = global::KongoRiver_Employees.Properties.Resources.Fermer_window;
+            this.btn_fermer.ImageActive = null;
+            this.btn_fermer.Location = new System.Drawing.Point(1256, 3);
+            this.btn_fermer.Name = "btn_fermer";
+            this.btn_fermer.Size = new System.Drawing.Size(57, 48);
+            this.btn_fermer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_fermer.TabIndex = 1;
+            this.btn_fermer.TabStop = false;
+            this.btn_fermer.Zoom = 10;
+            this.btn_fermer.Click += new System.EventHandler(this.btn_fermer_Click);
             // 
             // frm_home
             // 
@@ -331,9 +332,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.pnl_admin.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_fermer)).EndInit();
-            this.pnl_admin.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

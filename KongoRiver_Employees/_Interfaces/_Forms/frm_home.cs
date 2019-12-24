@@ -37,5 +37,11 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
 
         }
+
+        private void btn_sites_Click(object sender, EventArgs e)
+        {
+            var fr = new frm_sites();
+            fr.ShowDialog();
+        }
     }
 }

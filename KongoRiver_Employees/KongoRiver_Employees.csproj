@@ -87,6 +87,12 @@
     <Compile Include="_Interfaces\_Forms\frm_documents.Designer.cs">
       <DependentUpon>frm_documents.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_employees.Designer.cs">
+      <DependentUpon>frm_employees.cs</DependentUpon>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,12 @@
     </Compile>
     <Compile Include="_Interfaces\_Forms\frm_parameters.Designer.cs">
       <DependentUpon>frm_parameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_sites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_sites.Designer.cs">
+      <DependentUpon>frm_sites.cs</DependentUpon>
     </Compile>
     <Compile Include="_Interfaces\_SubForms\frm_alertes.cs">
       <SubType>Form</SubType>
@@ -283,6 +295,9 @@
     <EmbeddedResource Include="_Interfaces\_Forms\frm_documents.resx">
       <DependentUpon>frm_documents.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_employees.resx">
+      <DependentUpon>frm_employees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_home.resx">
       <DependentUpon>frm_home.cs</DependentUpon>
     </EmbeddedResource>
@@ -294,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_parameters.resx">
       <DependentUpon>frm_parameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_sites.resx">
+      <DependentUpon>frm_sites.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_SubForms\frm_employees.resx">
       <DependentUpon>frm_employees.cs</DependentUpon>
@@ -507,6 +525,11 @@
     <Content Include="FormatFactorylogo_andrea.ico" />
     <Content Include="img_335918.ico" />
     <Content Include="logo_andrea.ico" />
+    <None Include="Resources\place_marker_96px.png" />
+    <None Include="Resources\sites_localisation1.png" />
+    <None Include="Resources\add_trash_96px.png" />
+    <None Include="Resources\add_96px.png" />
+    <None Include="Resources\multiply_96px.png" />
     <None Include="Resources\home.png" />
     <None Include="Resources\settings_3_96px.png" />
     <None Include="Resources\reports.png" />
