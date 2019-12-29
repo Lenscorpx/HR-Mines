@@ -533,6 +533,16 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap place_marker_96px1 {
+            get {
+                object obj = ResourceManager.GetObject("place_marker_96px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap report_3_512 {
             get {
                 object obj = ResourceManager.GetObject("report-3-512", resourceCulture);

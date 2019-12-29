@@ -47,26 +47,26 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void txt_designation_site_TextChanged(object sender, EventArgs e)
         {
-            rps.rechercher_site(bunifuCustomDataGrid2, txt_designation_site.Text);
+            rps.rechercher_site(bunifuCustomDataGrid2, txt_bnf_designation.Text);
         }
 
         private void btn_enregistrer_Click(object sender, EventArgs e)
         {
-            if (txt_site_id.Text == "" || txt_designation_site.Text == "")
+            if (txt_bnf_idsite.Text == "" || txt_bnf_designation.Text == "")
             {
                 MessageBox.Show("Missing Informations");
             }
             else
             {
-                rps.inserer_site(txt_site_id.Text, txt_designation_site.Text);
+                rps.inserer_site(txt_bnf_idsite.Text, txt_bnf_designation.Text);
                 loading();
-                txt_site_id.Clear(); txt_designation_site.Clear();
+                txt_bnf_idsite.ResetText(); txt_bnf_designation.ResetText();
             }
         }
 
         private void btn_supprimer_Click(object sender, EventArgs e)
         {
-            if (txt_site_id.Text == "")
+            if (txt_bnf_idsite.Text == "")
             {
                 MessageBox.Show("Missing Informations");
             }
@@ -76,9 +76,9 @@ namespace KongoRiver_Employees._Interfaces._Forms
                 rs = MessageBox.Show("please confirm with OK to delete this information", "Deletion confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (rs == DialogResult.Yes)
                 {
-                    rps.supprimer_site(txt_site_id.Text);
+                    rps.supprimer_site(txt_bnf_idsite.Text);
                     loading();
-                    txt_site_id.Clear(); txt_designation_site.Clear();
+                    txt_bnf_idsite.Text=""; txt_bnf_designation.Text="";
                     MessageBox.Show(this, "successful deletion!", "Suppression Reussie", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
@@ -86,8 +86,13 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void bunifuCustomDataGrid2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            txt_site_id.Text = bunifuCustomDataGrid2.SelectedRows[0].Cells[0].Value.ToString();
-            txt_designation_site.Text = bunifuCustomDataGrid2.SelectedRows[0].Cells[1].Value.ToString();
+            txt_bnf_idsite.Text = bunifuCustomDataGrid2.SelectedRows[0].Cells[0].Value.ToString();
+            txt_bnf_designation.Text = bunifuCustomDataGrid2.SelectedRows[0].Cells[1].Value.ToString();
+        }
+
+        private void txt_bnf_idsite_OnValueChanged(object sender, EventArgs e)
+        {
+            rps.rechercher_site(bunifuCustomDataGrid2, txt_bnf_designation.Text);
         }
     }
 }
