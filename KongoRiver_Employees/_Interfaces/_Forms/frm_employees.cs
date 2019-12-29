@@ -16,5 +16,10 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
             InitializeComponent();
         }
+
+        private void bunifuDatepicker1_onValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
