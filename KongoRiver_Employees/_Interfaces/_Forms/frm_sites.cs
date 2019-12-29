@@ -92,6 +92,11 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void txt_bnf_idsite_OnValueChanged(object sender, EventArgs e)
         {
+            rps.rechercher_site(bunifuCustomDataGrid2, txt_bnf_idsite.Text);
+        }
+
+        private void txt_bnf_designation_OnValueChanged(object sender, EventArgs e)
+        {
             rps.rechercher_site(bunifuCustomDataGrid2, txt_bnf_designation.Text);
         }
     }
