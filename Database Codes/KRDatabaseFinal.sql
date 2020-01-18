@@ -120,6 +120,7 @@ create table t_employees
 		postname nvarchar(50),
 		given_name nvarchar(50),
 		sex nvarchar(50),
+		civil_status nvarchar(50),
 		nationality nvarchar(50),
 		place_of_birth nvarchar(50),
 		date_of_birth date,
