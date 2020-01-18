@@ -243,6 +243,16 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_database_104px {
+            get {
+                object obj = ResourceManager.GetObject("add_database_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_trash_96px {
             get {
                 object obj = ResourceManager.GetObject("add_trash_96px", resourceCulture);

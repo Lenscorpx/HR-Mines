@@ -17,7 +17,7 @@ namespace KongoRiver_Employees
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_sites());
+            Application.Run(new frm_employees());
         }
     }
 }

@@ -498,6 +498,9 @@
     <Content Include="FormatFactorylogo_andrea.ico" />
     <Content Include="img_335918.ico" />
     <Content Include="logo_andrea.ico" />
+    <None Include="Resources\add_database_104px.png" />
+    <None Include="Resources\add_user_male_104px.png" />
+    <None Include="Resources\male_user_104px.png" />
     <None Include="Resources\place_marker_96px1.png" />
     <None Include="Resources\place_marker_96px.png" />
     <None Include="Resources\sites_localisation1.png" />
