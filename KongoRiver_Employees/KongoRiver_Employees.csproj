@@ -39,19 +39,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
-      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\Bunifu_UI_v1.52.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Mes Frameworks\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
     <Reference Include="LiveCharts">
-      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\LiveCharts.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Mes Frameworks\LiveCharts.dll</HintPath>
     </Reference>
     <Reference Include="LiveCharts.WinForms">
-      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\LiveCharts.WinForms.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Mes Frameworks\LiveCharts.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin">
-      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\MaterialSkin.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Mes Frameworks\MaterialSkin.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework">
-      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\MetroFramework.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Mes Frameworks\MetroFramework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,7 +65,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Tulpep.NotificationWindow">
-      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\Tulpep.NotificationWindow.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Mes Frameworks\Tulpep.NotificationWindow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
