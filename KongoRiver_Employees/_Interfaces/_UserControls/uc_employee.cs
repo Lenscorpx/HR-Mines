@@ -69,22 +69,7 @@ namespace KongoRiver_Employees._Interfaces._UserControls
 
         private void btn_supprimer_Click(object sender, EventArgs e)
         {
-            if
-                (txt_coy_id.Text == "")
-            {                
-                MessageBox.Show("Complete all empty cases!!");
-            }
-            else
-            {               
-                var rs = new DialogResult();
-                rs = MessageBox.Show("Veuillez confirmer pour la suppression", "Confirmation de suppression", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (rs == DialogResult.Yes)
-                {
-                    drs.supprimer_employee(txt_coy_id.Text);
-                    afficher_employees();
-                    MessageBox.Show(this, "Suppression Reussie!", "Suppression Reussie", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-            }
+            
         }
 
         private void txt_surname_TextChanged(object sender, EventArgs e)
@@ -150,6 +135,11 @@ namespace KongoRiver_Employees._Interfaces._UserControls
             if (rs == DialogResult.Cancel)
                 return;
             pictureBox2.Image = Image.FromFile(ofd.FileName);
+        }
+
+        private void txt_coy_id_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

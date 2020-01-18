@@ -30,7 +30,8 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void btn_employees_Click(object sender, EventArgs e)
         {
-            
+            var fr = new frm_employees();
+            fr.Show();
         }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)

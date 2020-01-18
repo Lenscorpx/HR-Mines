@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_employees));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuCustomDataGrid2 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
@@ -47,28 +46,29 @@
             this.txt_sect_chef = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txt_district = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txt_village = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.dt_date_enregistrement = new MetroFramework.Controls.MetroDateTime();
+            this.dt_date_birthday = new MetroFramework.Controls.MetroDateTime();
             this.cbx_etat_civil = new MetroFramework.Controls.MetroComboBox();
             this.cbx_sexe = new MetroFramework.Controls.MetroComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.txt_nationality = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_dependents = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_vsr = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_contract = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_driving_license = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_medical_infos = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_visa = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_resident_card = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_passport = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_update = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_supprimer = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_enregistrer = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_bank_details = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.txt_nationalID = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton7 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton8 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton11 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton12 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -99,37 +99,37 @@
             // 
             // bunifuCustomDataGrid2
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle31.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle31.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
             this.bunifuCustomDataGrid2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bunifuCustomDataGrid2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
             this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bunifuCustomDataGrid2.ColumnHeadersVisible = false;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.DefaultCellStyle = dataGridViewCellStyle33;
             this.bunifuCustomDataGrid2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.bunifuCustomDataGrid2.DoubleBuffered = true;
             this.bunifuCustomDataGrid2.EnableHeadersVisualStyles = false;
@@ -139,25 +139,26 @@
             this.bunifuCustomDataGrid2.Location = new System.Drawing.Point(0, 494);
             this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
             this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.RowHeadersDefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.RowsDefaultCellStyle = dataGridViewCellStyle35;
             this.bunifuCustomDataGrid2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.bunifuCustomDataGrid2.Size = new System.Drawing.Size(1300, 191);
             this.bunifuCustomDataGrid2.TabIndex = 263;
+            this.bunifuCustomDataGrid2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuCustomDataGrid2_CellContentClick);
             // 
             // txt_coy_ID
             // 
@@ -178,6 +179,7 @@
             this.txt_coy_ID.Size = new System.Drawing.Size(256, 44);
             this.txt_coy_ID.TabIndex = 272;
             this.txt_coy_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_coy_ID.OnValueChanged += new System.EventHandler(this.txt_coy_ID_OnValueChanged);
             // 
             // txt_first_name
             // 
@@ -197,8 +199,8 @@
             this.txt_first_name.Name = "txt_first_name";
             this.txt_first_name.Size = new System.Drawing.Size(256, 44);
             this.txt_first_name.TabIndex = 273;
-            this.txt_first_name.Text = "Firstname";
             this.txt_first_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_first_name.OnValueChanged += new System.EventHandler(this.txt_first_name_OnValueChanged);
             // 
             // txt_lastname
             // 
@@ -218,8 +220,8 @@
             this.txt_lastname.Name = "txt_lastname";
             this.txt_lastname.Size = new System.Drawing.Size(256, 44);
             this.txt_lastname.TabIndex = 274;
-            this.txt_lastname.Text = "Lastname";
             this.txt_lastname.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_lastname.OnValueChanged += new System.EventHandler(this.txt_lastname_OnValueChanged);
             // 
             // txt_given_name
             // 
@@ -239,8 +241,8 @@
             this.txt_given_name.Name = "txt_given_name";
             this.txt_given_name.Size = new System.Drawing.Size(256, 44);
             this.txt_given_name.TabIndex = 275;
-            this.txt_given_name.Text = "Given Name";
             this.txt_given_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_given_name.OnValueChanged += new System.EventHandler(this.txt_given_name_OnValueChanged);
             // 
             // txt_birthplace
             // 
@@ -260,7 +262,6 @@
             this.txt_birthplace.Name = "txt_birthplace";
             this.txt_birthplace.Size = new System.Drawing.Size(260, 44);
             this.txt_birthplace.TabIndex = 276;
-            this.txt_birthplace.Text = "Birthplace";
             this.txt_birthplace.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txt_province
@@ -276,7 +277,7 @@
             this.txt_province.LineIdleColor = System.Drawing.Color.White;
             this.txt_province.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_province.LineThickness = 4;
-            this.txt_province.Location = new System.Drawing.Point(810, 265);
+            this.txt_province.Location = new System.Drawing.Point(806, 213);
             this.txt_province.Margin = new System.Windows.Forms.Padding(4);
             this.txt_province.Name = "txt_province";
             this.txt_province.Size = new System.Drawing.Size(256, 44);
@@ -296,7 +297,7 @@
             this.txt_territory.LineIdleColor = System.Drawing.Color.White;
             this.txt_territory.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_territory.LineThickness = 4;
-            this.txt_territory.Location = new System.Drawing.Point(810, 213);
+            this.txt_territory.Location = new System.Drawing.Point(806, 161);
             this.txt_territory.Margin = new System.Windows.Forms.Padding(4);
             this.txt_territory.Name = "txt_territory";
             this.txt_territory.Size = new System.Drawing.Size(256, 44);
@@ -316,7 +317,7 @@
             this.txt_sect_chef.LineIdleColor = System.Drawing.Color.White;
             this.txt_sect_chef.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_sect_chef.LineThickness = 4;
-            this.txt_sect_chef.Location = new System.Drawing.Point(810, 109);
+            this.txt_sect_chef.Location = new System.Drawing.Point(806, 57);
             this.txt_sect_chef.Margin = new System.Windows.Forms.Padding(4);
             this.txt_sect_chef.Name = "txt_sect_chef";
             this.txt_sect_chef.Size = new System.Drawing.Size(256, 44);
@@ -336,12 +337,11 @@
             this.txt_district.LineIdleColor = System.Drawing.Color.White;
             this.txt_district.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_district.LineThickness = 4;
-            this.txt_district.Location = new System.Drawing.Point(810, 161);
+            this.txt_district.Location = new System.Drawing.Point(806, 109);
             this.txt_district.Margin = new System.Windows.Forms.Padding(4);
             this.txt_district.Name = "txt_district";
             this.txt_district.Size = new System.Drawing.Size(256, 44);
             this.txt_district.TabIndex = 280;
-            this.txt_district.Text = "District";
             this.txt_district.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txt_village
@@ -357,23 +357,22 @@
             this.txt_village.LineIdleColor = System.Drawing.Color.White;
             this.txt_village.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_village.LineThickness = 4;
-            this.txt_village.Location = new System.Drawing.Point(810, 57);
+            this.txt_village.Location = new System.Drawing.Point(526, 265);
             this.txt_village.Margin = new System.Windows.Forms.Padding(4);
             this.txt_village.Name = "txt_village";
             this.txt_village.Size = new System.Drawing.Size(256, 44);
             this.txt_village.TabIndex = 281;
-            this.txt_village.Text = "Village";
             this.txt_village.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // dt_date_enregistrement
+            // dt_date_birthday
             // 
-            this.dt_date_enregistrement.Location = new System.Drawing.Point(592, 118);
-            this.dt_date_enregistrement.MinimumSize = new System.Drawing.Size(0, 29);
-            this.dt_date_enregistrement.Name = "dt_date_enregistrement";
-            this.dt_date_enregistrement.Size = new System.Drawing.Size(194, 29);
-            this.dt_date_enregistrement.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dt_date_enregistrement.TabIndex = 283;
-            this.dt_date_enregistrement.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.dt_date_birthday.Location = new System.Drawing.Point(592, 118);
+            this.dt_date_birthday.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dt_date_birthday.Name = "dt_date_birthday";
+            this.dt_date_birthday.Size = new System.Drawing.Size(194, 29);
+            this.dt_date_birthday.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dt_date_birthday.TabIndex = 283;
+            this.dt_date_birthday.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // cbx_etat_civil
             // 
@@ -443,6 +442,368 @@
             this.label4.TabIndex = 287;
             this.label4.Text = "C. St";
             // 
+            // txt_nationality
+            // 
+            this.txt_nationality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_nationality.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_nationality.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_nationality.ForeColor = System.Drawing.Color.White;
+            this.txt_nationality.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_nationality.HintText = "Enter Nationality here";
+            this.txt_nationality.isPassword = false;
+            this.txt_nationality.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_nationality.LineIdleColor = System.Drawing.Color.White;
+            this.txt_nationality.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_nationality.LineThickness = 4;
+            this.txt_nationality.Location = new System.Drawing.Point(245, 265);
+            this.txt_nationality.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_nationality.Name = "txt_nationality";
+            this.txt_nationality.Size = new System.Drawing.Size(256, 44);
+            this.txt_nationality.TabIndex = 302;
+            this.txt_nationality.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_dependents
+            // 
+            this.txt_dependents.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_dependents.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_dependents.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_dependents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_dependents.BorderRadius = 0;
+            this.txt_dependents.ButtonText = "     Dependents";
+            this.txt_dependents.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_dependents.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_dependents.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_dependents.ForeColor = System.Drawing.Color.White;
+            this.txt_dependents.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_dependents.Iconimage = global::KongoRiver_Employees.Properties.Resources.dependants;
+            this.txt_dependents.Iconimage_right = null;
+            this.txt_dependents.Iconimage_right_Selected = null;
+            this.txt_dependents.Iconimage_Selected = null;
+            this.txt_dependents.IconMarginLeft = 0;
+            this.txt_dependents.IconMarginRight = 0;
+            this.txt_dependents.IconRightVisible = true;
+            this.txt_dependents.IconRightZoom = 0D;
+            this.txt_dependents.IconVisible = true;
+            this.txt_dependents.IconZoom = 50D;
+            this.txt_dependents.IsTab = true;
+            this.txt_dependents.Location = new System.Drawing.Point(1098, 248);
+            this.txt_dependents.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_dependents.Name = "txt_dependents";
+            this.txt_dependents.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_dependents.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_dependents.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_dependents.selected = false;
+            this.txt_dependents.Size = new System.Drawing.Size(196, 40);
+            this.txt_dependents.TabIndex = 301;
+            this.txt_dependents.Text = "     Dependents";
+            this.txt_dependents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_dependents.Textcolor = System.Drawing.Color.White;
+            this.txt_dependents.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // txt_vsr
+            // 
+            this.txt_vsr.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_vsr.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_vsr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_vsr.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_vsr.BorderRadius = 0;
+            this.txt_vsr.ButtonText = "     VSR";
+            this.txt_vsr.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_vsr.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_vsr.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_vsr.ForeColor = System.Drawing.Color.White;
+            this.txt_vsr.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_vsr.Iconimage = global::KongoRiver_Employees.Properties.Resources.no_cash_104px;
+            this.txt_vsr.Iconimage_right = null;
+            this.txt_vsr.Iconimage_right_Selected = null;
+            this.txt_vsr.Iconimage_Selected = null;
+            this.txt_vsr.IconMarginLeft = 0;
+            this.txt_vsr.IconMarginRight = 0;
+            this.txt_vsr.IconRightVisible = true;
+            this.txt_vsr.IconRightZoom = 0D;
+            this.txt_vsr.IconVisible = true;
+            this.txt_vsr.IconZoom = 50D;
+            this.txt_vsr.IsTab = true;
+            this.txt_vsr.Location = new System.Drawing.Point(1098, 443);
+            this.txt_vsr.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_vsr.Name = "txt_vsr";
+            this.txt_vsr.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_vsr.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_vsr.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_vsr.selected = false;
+            this.txt_vsr.Size = new System.Drawing.Size(196, 40);
+            this.txt_vsr.TabIndex = 300;
+            this.txt_vsr.Text = "     VSR";
+            this.txt_vsr.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_vsr.Textcolor = System.Drawing.Color.White;
+            this.txt_vsr.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // txt_contract
+            // 
+            this.txt_contract.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_contract.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_contract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_contract.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_contract.BorderRadius = 0;
+            this.txt_contract.ButtonText = "     Contracts";
+            this.txt_contract.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_contract.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_contract.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_contract.ForeColor = System.Drawing.Color.White;
+            this.txt_contract.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_contract.Iconimage = global::KongoRiver_Employees.Properties.Resources.agreement_104px;
+            this.txt_contract.Iconimage_right = null;
+            this.txt_contract.Iconimage_right_Selected = null;
+            this.txt_contract.Iconimage_Selected = null;
+            this.txt_contract.IconMarginLeft = 0;
+            this.txt_contract.IconMarginRight = 0;
+            this.txt_contract.IconRightVisible = true;
+            this.txt_contract.IconRightZoom = 0D;
+            this.txt_contract.IconVisible = true;
+            this.txt_contract.IconZoom = 50D;
+            this.txt_contract.IsTab = true;
+            this.txt_contract.Location = new System.Drawing.Point(1098, 209);
+            this.txt_contract.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_contract.Name = "txt_contract";
+            this.txt_contract.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_contract.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_contract.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_contract.selected = false;
+            this.txt_contract.Size = new System.Drawing.Size(196, 40);
+            this.txt_contract.TabIndex = 299;
+            this.txt_contract.Text = "     Contracts";
+            this.txt_contract.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_contract.Textcolor = System.Drawing.Color.White;
+            this.txt_contract.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuFlatButton5
+            // 
+            this.bunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.bunifuFlatButton5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuFlatButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.bunifuFlatButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton5.BorderRadius = 0;
+            this.bunifuFlatButton5.ButtonText = "     Medical Care";
+            this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton5.ForeColor = System.Drawing.Color.White;
+            this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton5.Iconimage = global::KongoRiver_Employees.Properties.Resources.medical_info;
+            this.bunifuFlatButton5.Iconimage_right = null;
+            this.bunifuFlatButton5.Iconimage_right_Selected = null;
+            this.bunifuFlatButton5.Iconimage_Selected = null;
+            this.bunifuFlatButton5.IconMarginLeft = 0;
+            this.bunifuFlatButton5.IconMarginRight = 0;
+            this.bunifuFlatButton5.IconRightVisible = true;
+            this.bunifuFlatButton5.IconRightZoom = 0D;
+            this.bunifuFlatButton5.IconVisible = true;
+            this.bunifuFlatButton5.IconZoom = 50D;
+            this.bunifuFlatButton5.IsTab = true;
+            this.bunifuFlatButton5.Location = new System.Drawing.Point(1098, 404);
+            this.bunifuFlatButton5.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.bunifuFlatButton5.Name = "bunifuFlatButton5";
+            this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton5.selected = false;
+            this.bunifuFlatButton5.Size = new System.Drawing.Size(196, 40);
+            this.bunifuFlatButton5.TabIndex = 298;
+            this.bunifuFlatButton5.Text = "     Medical Care";
+            this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // txt_driving_license
+            // 
+            this.txt_driving_license.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_driving_license.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_driving_license.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_driving_license.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_driving_license.BorderRadius = 0;
+            this.txt_driving_license.ButtonText = "     Driving License";
+            this.txt_driving_license.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_driving_license.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_driving_license.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_driving_license.ForeColor = System.Drawing.Color.White;
+            this.txt_driving_license.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_driving_license.Iconimage = global::KongoRiver_Employees.Properties.Resources.driving_license;
+            this.txt_driving_license.Iconimage_right = null;
+            this.txt_driving_license.Iconimage_right_Selected = null;
+            this.txt_driving_license.Iconimage_Selected = null;
+            this.txt_driving_license.IconMarginLeft = 0;
+            this.txt_driving_license.IconMarginRight = 0;
+            this.txt_driving_license.IconRightVisible = true;
+            this.txt_driving_license.IconRightZoom = 0D;
+            this.txt_driving_license.IconVisible = true;
+            this.txt_driving_license.IconZoom = 50D;
+            this.txt_driving_license.IsTab = true;
+            this.txt_driving_license.Location = new System.Drawing.Point(1098, 170);
+            this.txt_driving_license.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_driving_license.Name = "txt_driving_license";
+            this.txt_driving_license.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_driving_license.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_driving_license.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_driving_license.selected = false;
+            this.txt_driving_license.Size = new System.Drawing.Size(196, 40);
+            this.txt_driving_license.TabIndex = 297;
+            this.txt_driving_license.Text = "     Driving License";
+            this.txt_driving_license.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_driving_license.Textcolor = System.Drawing.Color.White;
+            this.txt_driving_license.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // txt_medical_infos
+            // 
+            this.txt_medical_infos.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_medical_infos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_medical_infos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_medical_infos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_medical_infos.BorderRadius = 0;
+            this.txt_medical_infos.ButtonText = "     Medical controls";
+            this.txt_medical_infos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_medical_infos.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_medical_infos.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_medical_infos.ForeColor = System.Drawing.Color.White;
+            this.txt_medical_infos.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_medical_infos.Iconimage = global::KongoRiver_Employees.Properties.Resources.medical_infos2;
+            this.txt_medical_infos.Iconimage_right = null;
+            this.txt_medical_infos.Iconimage_right_Selected = null;
+            this.txt_medical_infos.Iconimage_Selected = null;
+            this.txt_medical_infos.IconMarginLeft = 0;
+            this.txt_medical_infos.IconMarginRight = 0;
+            this.txt_medical_infos.IconRightVisible = true;
+            this.txt_medical_infos.IconRightZoom = 0D;
+            this.txt_medical_infos.IconVisible = true;
+            this.txt_medical_infos.IconZoom = 50D;
+            this.txt_medical_infos.IsTab = true;
+            this.txt_medical_infos.Location = new System.Drawing.Point(1098, 365);
+            this.txt_medical_infos.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_medical_infos.Name = "txt_medical_infos";
+            this.txt_medical_infos.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_medical_infos.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_medical_infos.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_medical_infos.selected = false;
+            this.txt_medical_infos.Size = new System.Drawing.Size(196, 40);
+            this.txt_medical_infos.TabIndex = 296;
+            this.txt_medical_infos.Text = "     Medical controls";
+            this.txt_medical_infos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_medical_infos.Textcolor = System.Drawing.Color.White;
+            this.txt_medical_infos.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // txt_visa
+            // 
+            this.txt_visa.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_visa.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_visa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_visa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_visa.BorderRadius = 0;
+            this.txt_visa.ButtonText = "     Visas";
+            this.txt_visa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_visa.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_visa.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_visa.ForeColor = System.Drawing.Color.White;
+            this.txt_visa.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_visa.Iconimage = global::KongoRiver_Employees.Properties.Resources.visa_104px;
+            this.txt_visa.Iconimage_right = null;
+            this.txt_visa.Iconimage_right_Selected = null;
+            this.txt_visa.Iconimage_Selected = null;
+            this.txt_visa.IconMarginLeft = 0;
+            this.txt_visa.IconMarginRight = 0;
+            this.txt_visa.IconRightVisible = true;
+            this.txt_visa.IconRightZoom = 0D;
+            this.txt_visa.IconVisible = true;
+            this.txt_visa.IconZoom = 50D;
+            this.txt_visa.IsTab = true;
+            this.txt_visa.Location = new System.Drawing.Point(1098, 131);
+            this.txt_visa.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_visa.Name = "txt_visa";
+            this.txt_visa.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_visa.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_visa.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_visa.selected = false;
+            this.txt_visa.Size = new System.Drawing.Size(196, 40);
+            this.txt_visa.TabIndex = 295;
+            this.txt_visa.Text = "     Visas";
+            this.txt_visa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_visa.Textcolor = System.Drawing.Color.White;
+            this.txt_visa.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // txt_resident_card
+            // 
+            this.txt_resident_card.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_resident_card.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_resident_card.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_resident_card.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_resident_card.BorderRadius = 0;
+            this.txt_resident_card.ButtonText = "     Resident Cards";
+            this.txt_resident_card.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_resident_card.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_resident_card.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_resident_card.ForeColor = System.Drawing.Color.White;
+            this.txt_resident_card.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_resident_card.Iconimage = global::KongoRiver_Employees.Properties.Resources.membership_card_104px;
+            this.txt_resident_card.Iconimage_right = null;
+            this.txt_resident_card.Iconimage_right_Selected = null;
+            this.txt_resident_card.Iconimage_Selected = null;
+            this.txt_resident_card.IconMarginLeft = 0;
+            this.txt_resident_card.IconMarginRight = 0;
+            this.txt_resident_card.IconRightVisible = true;
+            this.txt_resident_card.IconRightZoom = 0D;
+            this.txt_resident_card.IconVisible = true;
+            this.txt_resident_card.IconZoom = 50D;
+            this.txt_resident_card.IsTab = true;
+            this.txt_resident_card.Location = new System.Drawing.Point(1098, 326);
+            this.txt_resident_card.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_resident_card.Name = "txt_resident_card";
+            this.txt_resident_card.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_resident_card.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_resident_card.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_resident_card.selected = false;
+            this.txt_resident_card.Size = new System.Drawing.Size(196, 40);
+            this.txt_resident_card.TabIndex = 294;
+            this.txt_resident_card.Text = "     Resident Cards";
+            this.txt_resident_card.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_resident_card.Textcolor = System.Drawing.Color.White;
+            this.txt_resident_card.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // txt_passport
+            // 
+            this.txt_passport.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_passport.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_passport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_passport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_passport.BorderRadius = 0;
+            this.txt_passport.ButtonText = "     Passport";
+            this.txt_passport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_passport.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_passport.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_passport.ForeColor = System.Drawing.Color.White;
+            this.txt_passport.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_passport.Iconimage = global::KongoRiver_Employees.Properties.Resources.passport_104px;
+            this.txt_passport.Iconimage_right = null;
+            this.txt_passport.Iconimage_right_Selected = null;
+            this.txt_passport.Iconimage_Selected = null;
+            this.txt_passport.IconMarginLeft = 0;
+            this.txt_passport.IconMarginRight = 0;
+            this.txt_passport.IconRightVisible = true;
+            this.txt_passport.IconRightZoom = 0D;
+            this.txt_passport.IconVisible = true;
+            this.txt_passport.IconZoom = 50D;
+            this.txt_passport.IsTab = true;
+            this.txt_passport.Location = new System.Drawing.Point(1098, 93);
+            this.txt_passport.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_passport.Name = "txt_passport";
+            this.txt_passport.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_passport.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_passport.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_passport.selected = false;
+            this.txt_passport.Size = new System.Drawing.Size(196, 40);
+            this.txt_passport.TabIndex = 293;
+            this.txt_passport.Text = "     Passport";
+            this.txt_passport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_passport.Textcolor = System.Drawing.Color.White;
+            this.txt_passport.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
             // btn_update
             // 
             this.btn_update.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -505,7 +866,7 @@
             this.btn_supprimer.IconVisible = true;
             this.btn_supprimer.IconZoom = 50D;
             this.btn_supprimer.IsTab = true;
-            this.btn_supprimer.Location = new System.Drawing.Point(417, 269);
+            this.btn_supprimer.Location = new System.Drawing.Point(650, 370);
             this.btn_supprimer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btn_supprimer.Name = "btn_supprimer";
             this.btn_supprimer.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -518,6 +879,7 @@
             this.btn_supprimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_supprimer.Textcolor = System.Drawing.Color.White;
             this.btn_supprimer.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_supprimer.Click += new System.EventHandler(this.btn_supprimer_Click);
             // 
             // btn_enregistrer
             // 
@@ -543,7 +905,7 @@
             this.btn_enregistrer.IconVisible = true;
             this.btn_enregistrer.IconZoom = 50D;
             this.btn_enregistrer.IsTab = true;
-            this.btn_enregistrer.Location = new System.Drawing.Point(238, 269);
+            this.btn_enregistrer.Location = new System.Drawing.Point(471, 370);
             this.btn_enregistrer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btn_enregistrer.Name = "btn_enregistrer";
             this.btn_enregistrer.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -556,82 +918,83 @@
             this.btn_enregistrer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_enregistrer.Textcolor = System.Drawing.Color.White;
             this.btn_enregistrer.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_enregistrer.Click += new System.EventHandler(this.btn_enregistrer_Click);
             // 
-            // bunifuFlatButton3
+            // txt_bank_details
             // 
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "     Observation";
-            this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton3.Iconimage")));
-            this.bunifuFlatButton3.Iconimage_right = null;
-            this.bunifuFlatButton3.Iconimage_right_Selected = null;
-            this.bunifuFlatButton3.Iconimage_Selected = null;
-            this.bunifuFlatButton3.IconMarginLeft = 0;
-            this.bunifuFlatButton3.IconMarginRight = 0;
-            this.bunifuFlatButton3.IconRightVisible = true;
-            this.bunifuFlatButton3.IconRightZoom = 0D;
-            this.bunifuFlatButton3.IconVisible = true;
-            this.bunifuFlatButton3.IconZoom = 50D;
-            this.bunifuFlatButton3.IsTab = true;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(1125, 287);
-            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton3.TabIndex = 289;
-            this.bunifuFlatButton3.Text = "     Observation";
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_bank_details.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_bank_details.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_bank_details.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_bank_details.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_bank_details.BorderRadius = 0;
+            this.txt_bank_details.ButtonText = "     Bank Details";
+            this.txt_bank_details.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_bank_details.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_bank_details.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_bank_details.ForeColor = System.Drawing.Color.White;
+            this.txt_bank_details.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_bank_details.Iconimage = global::KongoRiver_Employees.Properties.Resources.bank_cards_104px;
+            this.txt_bank_details.Iconimage_right = null;
+            this.txt_bank_details.Iconimage_right_Selected = null;
+            this.txt_bank_details.Iconimage_Selected = null;
+            this.txt_bank_details.IconMarginLeft = 0;
+            this.txt_bank_details.IconMarginRight = 0;
+            this.txt_bank_details.IconRightVisible = true;
+            this.txt_bank_details.IconRightZoom = 0D;
+            this.txt_bank_details.IconVisible = true;
+            this.txt_bank_details.IconZoom = 50D;
+            this.txt_bank_details.IsTab = true;
+            this.txt_bank_details.Location = new System.Drawing.Point(1098, 287);
+            this.txt_bank_details.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_bank_details.Name = "txt_bank_details";
+            this.txt_bank_details.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_bank_details.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_bank_details.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_bank_details.selected = false;
+            this.txt_bank_details.Size = new System.Drawing.Size(196, 40);
+            this.txt_bank_details.TabIndex = 289;
+            this.txt_bank_details.Text = "     Bank Details";
+            this.txt_bank_details.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_bank_details.Textcolor = System.Drawing.Color.White;
+            this.txt_bank_details.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuFlatButton1
+            // txt_nationalID
             // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "     Participants";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton1.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 50D;
-            this.bunifuFlatButton1.IsTab = true;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(1125, 54);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton1.TabIndex = 288;
-            this.bunifuFlatButton1.Text = "     Participants";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nationalID.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_nationalID.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_nationalID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_nationalID.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txt_nationalID.BorderRadius = 0;
+            this.txt_nationalID.ButtonText = "     National ID";
+            this.txt_nationalID.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txt_nationalID.DisabledColor = System.Drawing.Color.Gray;
+            this.txt_nationalID.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nationalID.ForeColor = System.Drawing.Color.White;
+            this.txt_nationalID.Iconcolor = System.Drawing.Color.Transparent;
+            this.txt_nationalID.Iconimage = global::KongoRiver_Employees.Properties.Resources.identity_card;
+            this.txt_nationalID.Iconimage_right = null;
+            this.txt_nationalID.Iconimage_right_Selected = null;
+            this.txt_nationalID.Iconimage_Selected = null;
+            this.txt_nationalID.IconMarginLeft = 0;
+            this.txt_nationalID.IconMarginRight = 0;
+            this.txt_nationalID.IconRightVisible = true;
+            this.txt_nationalID.IconRightZoom = 0D;
+            this.txt_nationalID.IconVisible = true;
+            this.txt_nationalID.IconZoom = 50D;
+            this.txt_nationalID.IsTab = true;
+            this.txt_nationalID.Location = new System.Drawing.Point(1098, 54);
+            this.txt_nationalID.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.txt_nationalID.Name = "txt_nationalID";
+            this.txt_nationalID.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_nationalID.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_nationalID.OnHoverTextColor = System.Drawing.Color.White;
+            this.txt_nationalID.selected = false;
+            this.txt_nationalID.Size = new System.Drawing.Size(196, 40);
+            this.txt_nationalID.TabIndex = 288;
+            this.txt_nationalID.Text = "     National ID";
+            this.txt_nationalID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_nationalID.Textcolor = System.Drawing.Color.White;
+            this.txt_nationalID.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // pictureBox2
             // 
@@ -643,6 +1006,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 271;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // bunifuImageButton1
             // 
@@ -656,373 +1020,33 @@
             this.bunifuImageButton1.TabIndex = 4;
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
-            // 
-            // bunifuFlatButton2
-            // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "     Observation";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton2.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton2.Iconimage")));
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 50D;
-            this.bunifuFlatButton2.IsTab = true;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(1125, 326);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton2.TabIndex = 294;
-            this.bunifuFlatButton2.Text = "     Observation";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton4
-            // 
-            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton4.BorderRadius = 0;
-            this.bunifuFlatButton4.ButtonText = "     Participants";
-            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton4.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton4.Iconimage")));
-            this.bunifuFlatButton4.Iconimage_right = null;
-            this.bunifuFlatButton4.Iconimage_right_Selected = null;
-            this.bunifuFlatButton4.Iconimage_Selected = null;
-            this.bunifuFlatButton4.IconMarginLeft = 0;
-            this.bunifuFlatButton4.IconMarginRight = 0;
-            this.bunifuFlatButton4.IconRightVisible = true;
-            this.bunifuFlatButton4.IconRightZoom = 0D;
-            this.bunifuFlatButton4.IconVisible = true;
-            this.bunifuFlatButton4.IconZoom = 50D;
-            this.bunifuFlatButton4.IsTab = true;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(1125, 93);
-            this.bunifuFlatButton4.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
-            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton4.TabIndex = 293;
-            this.bunifuFlatButton4.Text = "     Participants";
-            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton5
-            // 
-            this.bunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton5.BorderRadius = 0;
-            this.bunifuFlatButton5.ButtonText = "     Observation";
-            this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton5.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton5.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton5.Iconimage")));
-            this.bunifuFlatButton5.Iconimage_right = null;
-            this.bunifuFlatButton5.Iconimage_right_Selected = null;
-            this.bunifuFlatButton5.Iconimage_Selected = null;
-            this.bunifuFlatButton5.IconMarginLeft = 0;
-            this.bunifuFlatButton5.IconMarginRight = 0;
-            this.bunifuFlatButton5.IconRightVisible = true;
-            this.bunifuFlatButton5.IconRightZoom = 0D;
-            this.bunifuFlatButton5.IconVisible = true;
-            this.bunifuFlatButton5.IconZoom = 50D;
-            this.bunifuFlatButton5.IsTab = true;
-            this.bunifuFlatButton5.Location = new System.Drawing.Point(1125, 404);
-            this.bunifuFlatButton5.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton5.Name = "bunifuFlatButton5";
-            this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.selected = false;
-            this.bunifuFlatButton5.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton5.TabIndex = 298;
-            this.bunifuFlatButton5.Text = "     Observation";
-            this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton6
-            // 
-            this.bunifuFlatButton6.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton6.BorderRadius = 0;
-            this.bunifuFlatButton6.ButtonText = "     Participants";
-            this.bunifuFlatButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton6.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton6.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton6.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton6.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton6.Iconimage")));
-            this.bunifuFlatButton6.Iconimage_right = null;
-            this.bunifuFlatButton6.Iconimage_right_Selected = null;
-            this.bunifuFlatButton6.Iconimage_Selected = null;
-            this.bunifuFlatButton6.IconMarginLeft = 0;
-            this.bunifuFlatButton6.IconMarginRight = 0;
-            this.bunifuFlatButton6.IconRightVisible = true;
-            this.bunifuFlatButton6.IconRightZoom = 0D;
-            this.bunifuFlatButton6.IconVisible = true;
-            this.bunifuFlatButton6.IconZoom = 50D;
-            this.bunifuFlatButton6.IsTab = true;
-            this.bunifuFlatButton6.Location = new System.Drawing.Point(1125, 170);
-            this.bunifuFlatButton6.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton6.Name = "bunifuFlatButton6";
-            this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton6.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton6.selected = false;
-            this.bunifuFlatButton6.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton6.TabIndex = 297;
-            this.bunifuFlatButton6.Text = "     Participants";
-            this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton6.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton7
-            // 
-            this.bunifuFlatButton7.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton7.BorderRadius = 0;
-            this.bunifuFlatButton7.ButtonText = "     Observation";
-            this.bunifuFlatButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton7.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton7.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton7.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton7.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton7.Iconimage")));
-            this.bunifuFlatButton7.Iconimage_right = null;
-            this.bunifuFlatButton7.Iconimage_right_Selected = null;
-            this.bunifuFlatButton7.Iconimage_Selected = null;
-            this.bunifuFlatButton7.IconMarginLeft = 0;
-            this.bunifuFlatButton7.IconMarginRight = 0;
-            this.bunifuFlatButton7.IconRightVisible = true;
-            this.bunifuFlatButton7.IconRightZoom = 0D;
-            this.bunifuFlatButton7.IconVisible = true;
-            this.bunifuFlatButton7.IconZoom = 50D;
-            this.bunifuFlatButton7.IsTab = true;
-            this.bunifuFlatButton7.Location = new System.Drawing.Point(1125, 365);
-            this.bunifuFlatButton7.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton7.Name = "bunifuFlatButton7";
-            this.bunifuFlatButton7.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton7.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton7.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton7.selected = false;
-            this.bunifuFlatButton7.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton7.TabIndex = 296;
-            this.bunifuFlatButton7.Text = "     Observation";
-            this.bunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton7.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton8
-            // 
-            this.bunifuFlatButton8.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton8.BorderRadius = 0;
-            this.bunifuFlatButton8.ButtonText = "     Participants";
-            this.bunifuFlatButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton8.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton8.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton8.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton8.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton8.Iconimage")));
-            this.bunifuFlatButton8.Iconimage_right = null;
-            this.bunifuFlatButton8.Iconimage_right_Selected = null;
-            this.bunifuFlatButton8.Iconimage_Selected = null;
-            this.bunifuFlatButton8.IconMarginLeft = 0;
-            this.bunifuFlatButton8.IconMarginRight = 0;
-            this.bunifuFlatButton8.IconRightVisible = true;
-            this.bunifuFlatButton8.IconRightZoom = 0D;
-            this.bunifuFlatButton8.IconVisible = true;
-            this.bunifuFlatButton8.IconZoom = 50D;
-            this.bunifuFlatButton8.IsTab = true;
-            this.bunifuFlatButton8.Location = new System.Drawing.Point(1125, 131);
-            this.bunifuFlatButton8.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton8.Name = "bunifuFlatButton8";
-            this.bunifuFlatButton8.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton8.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton8.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton8.selected = false;
-            this.bunifuFlatButton8.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton8.TabIndex = 295;
-            this.bunifuFlatButton8.Text = "     Participants";
-            this.bunifuFlatButton8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton8.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton8.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton10
-            // 
-            this.bunifuFlatButton10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton10.BorderRadius = 0;
-            this.bunifuFlatButton10.ButtonText = "     Participants";
-            this.bunifuFlatButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton10.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton10.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton10.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton10.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton10.Iconimage")));
-            this.bunifuFlatButton10.Iconimage_right = null;
-            this.bunifuFlatButton10.Iconimage_right_Selected = null;
-            this.bunifuFlatButton10.Iconimage_Selected = null;
-            this.bunifuFlatButton10.IconMarginLeft = 0;
-            this.bunifuFlatButton10.IconMarginRight = 0;
-            this.bunifuFlatButton10.IconRightVisible = true;
-            this.bunifuFlatButton10.IconRightZoom = 0D;
-            this.bunifuFlatButton10.IconVisible = true;
-            this.bunifuFlatButton10.IconZoom = 50D;
-            this.bunifuFlatButton10.IsTab = true;
-            this.bunifuFlatButton10.Location = new System.Drawing.Point(1125, 248);
-            this.bunifuFlatButton10.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton10.Name = "bunifuFlatButton10";
-            this.bunifuFlatButton10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton10.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton10.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton10.selected = false;
-            this.bunifuFlatButton10.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton10.TabIndex = 301;
-            this.bunifuFlatButton10.Text = "     Participants";
-            this.bunifuFlatButton10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton10.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton10.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton11
-            // 
-            this.bunifuFlatButton11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton11.BorderRadius = 0;
-            this.bunifuFlatButton11.ButtonText = "     Observation";
-            this.bunifuFlatButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton11.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton11.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton11.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton11.Iconimage")));
-            this.bunifuFlatButton11.Iconimage_right = null;
-            this.bunifuFlatButton11.Iconimage_right_Selected = null;
-            this.bunifuFlatButton11.Iconimage_Selected = null;
-            this.bunifuFlatButton11.IconMarginLeft = 0;
-            this.bunifuFlatButton11.IconMarginRight = 0;
-            this.bunifuFlatButton11.IconRightVisible = true;
-            this.bunifuFlatButton11.IconRightZoom = 0D;
-            this.bunifuFlatButton11.IconVisible = true;
-            this.bunifuFlatButton11.IconZoom = 50D;
-            this.bunifuFlatButton11.IsTab = true;
-            this.bunifuFlatButton11.Location = new System.Drawing.Point(1125, 443);
-            this.bunifuFlatButton11.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton11.Name = "bunifuFlatButton11";
-            this.bunifuFlatButton11.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton11.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton11.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.selected = false;
-            this.bunifuFlatButton11.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton11.TabIndex = 300;
-            this.bunifuFlatButton11.Text = "     Observation";
-            this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton11.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton12
-            // 
-            this.bunifuFlatButton12.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuFlatButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton12.BorderRadius = 0;
-            this.bunifuFlatButton12.ButtonText = "     Participants";
-            this.bunifuFlatButton12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton12.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton12.ForeColor = System.Drawing.Color.White;
-            this.bunifuFlatButton12.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton12.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton12.Iconimage")));
-            this.bunifuFlatButton12.Iconimage_right = null;
-            this.bunifuFlatButton12.Iconimage_right_Selected = null;
-            this.bunifuFlatButton12.Iconimage_Selected = null;
-            this.bunifuFlatButton12.IconMarginLeft = 0;
-            this.bunifuFlatButton12.IconMarginRight = 0;
-            this.bunifuFlatButton12.IconRightVisible = true;
-            this.bunifuFlatButton12.IconRightZoom = 0D;
-            this.bunifuFlatButton12.IconVisible = true;
-            this.bunifuFlatButton12.IconZoom = 50D;
-            this.bunifuFlatButton12.IsTab = true;
-            this.bunifuFlatButton12.Location = new System.Drawing.Point(1125, 209);
-            this.bunifuFlatButton12.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuFlatButton12.Name = "bunifuFlatButton12";
-            this.bunifuFlatButton12.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuFlatButton12.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.bunifuFlatButton12.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton12.selected = false;
-            this.bunifuFlatButton12.Size = new System.Drawing.Size(169, 40);
-            this.bunifuFlatButton12.TabIndex = 299;
-            this.bunifuFlatButton12.Text = "     Participants";
-            this.bunifuFlatButton12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton12.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton12.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
             // frm_employees
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1300, 685);
-            this.Controls.Add(this.bunifuFlatButton10);
-            this.Controls.Add(this.bunifuFlatButton11);
-            this.Controls.Add(this.bunifuFlatButton12);
+            this.Controls.Add(this.txt_nationality);
+            this.Controls.Add(this.txt_dependents);
+            this.Controls.Add(this.txt_vsr);
+            this.Controls.Add(this.txt_contract);
             this.Controls.Add(this.bunifuFlatButton5);
-            this.Controls.Add(this.bunifuFlatButton6);
-            this.Controls.Add(this.bunifuFlatButton7);
-            this.Controls.Add(this.bunifuFlatButton8);
-            this.Controls.Add(this.bunifuFlatButton2);
-            this.Controls.Add(this.bunifuFlatButton4);
+            this.Controls.Add(this.txt_driving_license);
+            this.Controls.Add(this.txt_medical_infos);
+            this.Controls.Add(this.txt_visa);
+            this.Controls.Add(this.txt_resident_card);
+            this.Controls.Add(this.txt_passport);
             this.Controls.Add(this.btn_update);
             this.Controls.Add(this.btn_supprimer);
             this.Controls.Add(this.btn_enregistrer);
-            this.Controls.Add(this.bunifuFlatButton3);
-            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.txt_bank_details);
+            this.Controls.Add(this.txt_nationalID);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbx_sexe);
-            this.Controls.Add(this.dt_date_enregistrement);
+            this.Controls.Add(this.dt_date_birthday);
             this.Controls.Add(this.cbx_etat_civil);
             this.Controls.Add(this.txt_village);
             this.Controls.Add(this.txt_district);
@@ -1070,7 +1094,7 @@
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_sect_chef;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_district;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_village;
-        private MetroFramework.Controls.MetroDateTime dt_date_enregistrement;
+        private MetroFramework.Controls.MetroDateTime dt_date_birthday;
         private MetroFramework.Controls.MetroComboBox cbx_etat_civil;
         private MetroFramework.Controls.MetroComboBox cbx_sexe;
         private System.Windows.Forms.Label label2;
@@ -1078,17 +1102,18 @@
         private System.Windows.Forms.Label label4;
         private Bunifu.Framework.UI.BunifuFlatButton btn_supprimer;
         private Bunifu.Framework.UI.BunifuFlatButton btn_enregistrer;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_bank_details;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_nationalID;
         private Bunifu.Framework.UI.BunifuFlatButton btn_update;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_resident_card;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_passport;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton6;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton7;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton8;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton10;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton11;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton12;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_driving_license;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_medical_infos;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_visa;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_dependents;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_vsr;
+        private Bunifu.Framework.UI.BunifuFlatButton txt_contract;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_nationality;
     }
 }

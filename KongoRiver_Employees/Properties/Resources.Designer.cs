@@ -273,9 +273,29 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agreement_104px {
+            get {
+                object obj = ResourceManager.GetObject("agreement_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Alphamin {
             get {
                 object obj = ResourceManager.GetObject("Alphamin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bank_cards_104px {
+            get {
+                object obj = ResourceManager.GetObject("bank_cards_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +373,29 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dependants {
+            get {
+                object obj = ResourceManager.GetObject("dependants", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap driver_license_card_filled {
             get {
                 object obj = ResourceManager.GetObject("driver-license-card-filled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap driving_license {
+            get {
+                object obj = ResourceManager.GetObject("driving_license", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,6 +483,26 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap identity_card {
+            get {
+                object obj = ResourceManager.GetObject("identity card", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap identity_theft_104px {
+            get {
+                object obj = ResourceManager.GetObject("identity_theft_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_335918 {
             get {
                 object obj = ResourceManager.GetObject("img_335918", resourceCulture);
@@ -513,9 +573,49 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap medical_info {
+            get {
+                object obj = ResourceManager.GetObject("medical_info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap medical_infos2 {
+            get {
+                object obj = ResourceManager.GetObject("medical infos2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap membership_card_104px {
+            get {
+                object obj = ResourceManager.GetObject("membership_card_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap multiply_96px {
             get {
                 object obj = ResourceManager.GetObject("multiply_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap no_cash_104px {
+            get {
+                object obj = ResourceManager.GetObject("no_cash_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -536,6 +636,16 @@ namespace KongoRiver_Employees.Properties {
         internal static System.Drawing.Bitmap pass_512 {
             get {
                 object obj = ResourceManager.GetObject("pass-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap passport_104px {
+            get {
+                object obj = ResourceManager.GetObject("passport_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -656,6 +766,26 @@ namespace KongoRiver_Employees.Properties {
         internal static System.Drawing.Bitmap Transport {
             get {
                 object obj = ResourceManager.GetObject("Transport", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap travel_visa_104px {
+            get {
+                object obj = ResourceManager.GetObject("travel_visa_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap visa_104px {
+            get {
+                object obj = ResourceManager.GetObject("visa_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
