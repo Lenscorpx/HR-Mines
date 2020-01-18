@@ -71,9 +71,9 @@
             this.bunifuTransition1.SetDecoration(this.bunifuImageButton1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuImageButton1.Image = global::KongoRiver_Employees.Properties.Resources.home;
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(4, 3);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(11, 9);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(57, 48);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(43, 37);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton1.TabIndex = 3;
             this.bunifuImageButton1.TabStop = false;
