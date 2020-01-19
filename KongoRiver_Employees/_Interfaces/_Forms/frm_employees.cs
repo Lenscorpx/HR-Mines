@@ -167,5 +167,19 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
             drs.afficher_employees_params(bunifuCustomDataGrid2, txt_coy_ID.Text);
         }
+
+        private void txt_visa_Click(object sender, EventArgs e)
+        {
+            if(txt_coy_ID.Text=="")
+            {
+                MessageBox.Show("Select first, Coy ID!");
+            }
+            else
+            {
+                var ds = new frm_visa();
+                ds.txt_coyID.Text = txt_coy_ID.Text;
+                ds.Show();
+            }            
+        }
     }
 }
