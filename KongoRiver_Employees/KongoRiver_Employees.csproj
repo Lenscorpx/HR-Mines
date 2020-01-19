@@ -507,6 +507,12 @@
     <Content Include="FormatFactorylogo_andrea.ico" />
     <Content Include="img_335918.ico" />
     <Content Include="logo_andrea.ico" />
+    <None Include="Resources\loyalty_104px.png" />
+    <None Include="Resources\trekking_104px.png" />
+    <None Include="Resources\worker_104px.png" />
+    <None Include="Resources\assignment.png" />
+    <None Include="Resources\flight1.png" />
+    <None Include="Resources\sheriff_104px.png" />
     <None Include="Resources\no_cash_104px.png" />
     <None Include="Resources\medical_info.png" />
     <None Include="Resources\medical infos2.png" />

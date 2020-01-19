@@ -186,5 +186,20 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
 
         }
+
+        private void txt_contract_Click(object sender, EventArgs e)
+        {
+            if (txt_coy_ID.Text == "")
+            {
+                MessageBox.Show("Select first, Coy ID!");
+            }
+            else
+            {
+                var ds = new frm_contracts();
+                ds.txt_coy_ID.Text = txt_coy_ID.Text;
+                ds.txt_noms.Text = txt_first_name.Text + " " + txt_given_name.Text + " " + txt_lastname.Text;
+                ds.Show();
+            }
+        }
     }
 }

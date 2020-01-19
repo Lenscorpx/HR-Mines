@@ -293,6 +293,16 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap assignment {
+            get {
+                object obj = ResourceManager.GetObject("assignment", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bank_cards_104px {
             get {
                 object obj = ResourceManager.GetObject("bank_cards_104px", resourceCulture);
@@ -463,6 +473,16 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flight1 {
+            get {
+                object obj = ResourceManager.GetObject("flight1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hold_512 {
             get {
                 object obj = ResourceManager.GetObject("hold-512", resourceCulture);
@@ -556,6 +576,16 @@ namespace KongoRiver_Employees.Properties {
         internal static System.Drawing.Bitmap logo_alphamine {
             get {
                 object obj = ResourceManager.GetObject("logo alphamine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loyalty_104px {
+            get {
+                object obj = ResourceManager.GetObject("loyalty_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -743,6 +773,16 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sheriff_104px {
+            get {
+                object obj = ResourceManager.GetObject("sheriff_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sites_localisation {
             get {
                 object obj = ResourceManager.GetObject("sites_localisation", resourceCulture);
@@ -783,9 +823,29 @@ namespace KongoRiver_Employees.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap trekking_104px {
+            get {
+                object obj = ResourceManager.GetObject("trekking_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap visa_104px {
             get {
                 object obj = ResourceManager.GetObject("visa_104px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap worker_104px {
+            get {
+                object obj = ResourceManager.GetObject("worker_104px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

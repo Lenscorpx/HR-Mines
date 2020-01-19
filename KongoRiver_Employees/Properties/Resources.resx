@@ -124,8 +124,14 @@
   <data name="pass-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pass-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="no_cash_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_cash_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Children-icon-site" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Children-icon-site.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="worker_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\worker_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="46698" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\46698.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -144,6 +150,9 @@
   </data>
   <data name="img_335918" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img_335918.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sheriff_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sheriff_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="68395" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\68395.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,6 +202,9 @@
   <data name="1400109414-GR_icons_PTW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1400109414-GR_icons_PTW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="trekking_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trekking_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="location-circle-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\location-circle-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -211,6 +223,9 @@
   <data name="flight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="07f7cf7dbe8bc74864ce8cc7e4770fea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07f7cf7dbe8bc74864ce8cc7e4770fea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add_trash_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add_trash_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -226,9 +241,6 @@
   <data name="sites_localisation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sites_localisation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Our-Traininer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Our-Traininer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -243,6 +255,9 @@
   </data>
   <data name="medical infos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medical infos2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assignment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assignment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="medical infos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medical infos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,6 +304,9 @@
   <data name="sites_localisation1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sites_localisation1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="flight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flight1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="passport_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\passport_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -313,8 +331,8 @@
   <data name="agreement_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\agreement_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="07f7cf7dbe8bc74864ce8cc7e4770fea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\07f7cf7dbe8bc74864ce8cc7e4770fea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="entrance-visa-filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entrance-visa-filled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,7 +370,7 @@
   <data name="identity card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\identity card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="no_cash_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_cash_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="loyalty_104px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loyalty_104px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
