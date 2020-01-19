@@ -181,5 +181,10 @@ namespace KongoRiver_Employees._Interfaces._Forms
                 ds.Show();
             }            
         }
+
+        private void frm_employees_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
