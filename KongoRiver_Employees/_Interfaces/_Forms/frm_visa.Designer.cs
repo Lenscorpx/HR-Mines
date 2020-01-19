@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -35,7 +36,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomDataGrid2 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.label2 = new System.Windows.Forms.Label();
             this.cbx_visa_type = new MetroFramework.Controls.MetroComboBox();
@@ -44,17 +44,19 @@
             this.dt_issue_date = new MetroFramework.Controls.MetroDateTime();
             this.label3 = new System.Windows.Forms.Label();
             this.txt_visa_ref = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btn_expiry = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_supprimer = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_enregistrer = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_expiry = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.bunifuImageButton1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -73,20 +75,6 @@
             this.label1.Size = new System.Drawing.Size(165, 22);
             this.label1.TabIndex = 5;
             this.label1.Text = "Visa Informations";
-            // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.bunifuImageButton1.Image = global::KongoRiver_Employees.Properties.Resources.multiply_96px;
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(948, 3);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(46, 41);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 4;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
             // bunifuCustomDataGrid2
             // 
@@ -251,6 +239,45 @@
             this.txt_visa_ref.TabIndex = 293;
             this.txt_visa_ref.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // btn_expiry
+            // 
+            this.btn_expiry.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.btn_expiry.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_expiry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.btn_expiry.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_expiry.BorderRadius = 0;
+            this.btn_expiry.ButtonText = "Expiration";
+            this.btn_expiry.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_expiry.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_expiry.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_expiry.ForeColor = System.Drawing.Color.White;
+            this.btn_expiry.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_expiry.Iconimage = global::KongoRiver_Employees.Properties.Resources.add_96px;
+            this.btn_expiry.Iconimage_right = null;
+            this.btn_expiry.Iconimage_right_Selected = null;
+            this.btn_expiry.Iconimage_Selected = null;
+            this.btn_expiry.IconMarginLeft = 0;
+            this.btn_expiry.IconMarginRight = 0;
+            this.btn_expiry.IconRightVisible = true;
+            this.btn_expiry.IconRightZoom = 0D;
+            this.btn_expiry.IconVisible = true;
+            this.btn_expiry.IconZoom = 50D;
+            this.btn_expiry.IsTab = true;
+            this.btn_expiry.Location = new System.Drawing.Point(819, 57);
+            this.btn_expiry.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btn_expiry.Name = "btn_expiry";
+            this.btn_expiry.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.btn_expiry.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.btn_expiry.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_expiry.selected = false;
+            this.btn_expiry.Size = new System.Drawing.Size(169, 40);
+            this.btn_expiry.TabIndex = 296;
+            this.btn_expiry.Text = "Expiration";
+            this.btn_expiry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_expiry.Textcolor = System.Drawing.Color.White;
+            this.btn_expiry.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_expiry.Click += new System.EventHandler(this.btn_expiry_Click);
+            // 
             // btn_supprimer
             // 
             this.btn_supprimer.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -329,44 +356,26 @@
             this.btn_enregistrer.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_enregistrer.Click += new System.EventHandler(this.btn_enregistrer_Click);
             // 
-            // btn_expiry
+            // bunifuImageButton1
             // 
-            this.btn_expiry.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.btn_expiry.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_expiry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.btn_expiry.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_expiry.BorderRadius = 0;
-            this.btn_expiry.ButtonText = "Expiration";
-            this.btn_expiry.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_expiry.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_expiry.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_expiry.ForeColor = System.Drawing.Color.White;
-            this.btn_expiry.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_expiry.Iconimage = global::KongoRiver_Employees.Properties.Resources.add_96px;
-            this.btn_expiry.Iconimage_right = null;
-            this.btn_expiry.Iconimage_right_Selected = null;
-            this.btn_expiry.Iconimage_Selected = null;
-            this.btn_expiry.IconMarginLeft = 0;
-            this.btn_expiry.IconMarginRight = 0;
-            this.btn_expiry.IconRightVisible = true;
-            this.btn_expiry.IconRightZoom = 0D;
-            this.btn_expiry.IconVisible = true;
-            this.btn_expiry.IconZoom = 50D;
-            this.btn_expiry.IsTab = true;
-            this.btn_expiry.Location = new System.Drawing.Point(819, 57);
-            this.btn_expiry.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.btn_expiry.Name = "btn_expiry";
-            this.btn_expiry.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.btn_expiry.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.btn_expiry.OnHoverTextColor = System.Drawing.Color.White;
-            this.btn_expiry.selected = false;
-            this.btn_expiry.Size = new System.Drawing.Size(169, 40);
-            this.btn_expiry.TabIndex = 296;
-            this.btn_expiry.Text = "Expiration";
-            this.btn_expiry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_expiry.Textcolor = System.Drawing.Color.White;
-            this.btn_expiry.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_expiry.Click += new System.EventHandler(this.btn_expiry_Click);
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.bunifuImageButton1.Image = global::KongoRiver_Employees.Properties.Resources.multiply_96px;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(948, 3);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(46, 41);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 4;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.panel1;
+            this.bunifuDragControl1.Vertical = true;
             // 
             // frm_visa
             // 
@@ -395,8 +404,8 @@
             this.Text = "frm_visa";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -418,5 +427,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton btn_enregistrer;
         private Bunifu.Framework.UI.BunifuFlatButton btn_expiry;
         public Bunifu.Framework.UI.BunifuMaterialTextbox txt_coyID;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }
 }
