@@ -30,7 +30,6 @@ namespace KongoRiver_Employees._Codes
             prms.Base_de_donnees = "AndreaBD";
             prms.Nom_user = "sa";
             prms.Mot_de_passe = "Windy@2019.com?";
-
         }
         public void afficher_employees(DataGridView dtg)
         {
