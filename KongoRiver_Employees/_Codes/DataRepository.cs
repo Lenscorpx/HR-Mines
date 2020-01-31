@@ -26,10 +26,14 @@ namespace KongoRiver_Employees._Codes
             //prms.Base_de_donnees = "AndreaBD";
             //prms.Nom_user = "Lens";
             //prms.Mot_de_passe = "12345678";
-            prms.Serveur = "DESKTOP-PO0I2OH";
+            //prms.Serveur = "DESKTOP-PO0I2OH";
+            //prms.Base_de_donnees = "AndreaBD";
+            //prms.Nom_user = "sa";
+            //prms.Mot_de_passe = "Windy@2019.com?";
+            prms.Serveur = "SCI-CD-L19-430\\SERVEUR";
             prms.Base_de_donnees = "AndreaBD";
             prms.Nom_user = "sa";
-            prms.Mot_de_passe = "Windy@2019.com?";
+            prms.Mot_de_passe = "123456789";
         }
         public void afficher_employees(DataGridView dtg)
         {
