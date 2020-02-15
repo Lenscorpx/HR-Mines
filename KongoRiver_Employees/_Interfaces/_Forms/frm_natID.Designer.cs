@@ -43,7 +43,6 @@
             this.txt_coyID = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomDataGrid2 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.btn_expiry = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_supprimer = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_enregistrer = new Bunifu.Framework.UI.BunifuFlatButton();
             this.txt_place = new Bunifu.Framework.UI.BunifuMaterialTextbox();
@@ -100,7 +99,7 @@
             this.txt_natID_ref.LineIdleColor = System.Drawing.Color.White;
             this.txt_natID_ref.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_natID_ref.LineThickness = 4;
-            this.txt_natID_ref.Location = new System.Drawing.Point(13, 117);
+            this.txt_natID_ref.Location = new System.Drawing.Point(142, 119);
             this.txt_natID_ref.Margin = new System.Windows.Forms.Padding(4);
             this.txt_natID_ref.Name = "txt_natID_ref";
             this.txt_natID_ref.Size = new System.Drawing.Size(469, 44);
@@ -109,10 +108,10 @@
             // 
             // dt_issue_date
             // 
-            this.dt_issue_date.Location = new System.Drawing.Point(629, 132);
+            this.dt_issue_date.Location = new System.Drawing.Point(758, 134);
             this.dt_issue_date.MinimumSize = new System.Drawing.Size(0, 29);
             this.dt_issue_date.Name = "dt_issue_date";
-            this.dt_issue_date.Size = new System.Drawing.Size(258, 29);
+            this.dt_issue_date.Size = new System.Drawing.Size(351, 29);
             this.dt_issue_date.Style = MetroFramework.MetroColorStyle.Blue;
             this.dt_issue_date.TabIndex = 303;
             this.dt_issue_date.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -122,7 +121,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(508, 140);
+            this.label2.Location = new System.Drawing.Point(637, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 17);
             this.label2.TabIndex = 302;
@@ -142,7 +141,7 @@
             this.txt_coyID.LineIdleColor = System.Drawing.Color.White;
             this.txt_coyID.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_coyID.LineThickness = 4;
-            this.txt_coyID.Location = new System.Drawing.Point(13, 65);
+            this.txt_coyID.Location = new System.Drawing.Point(142, 67);
             this.txt_coyID.Margin = new System.Windows.Forms.Padding(4);
             this.txt_coyID.Name = "txt_coyID";
             this.txt_coyID.Size = new System.Drawing.Size(469, 44);
@@ -188,7 +187,7 @@
             this.bunifuCustomDataGrid2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid2.Location = new System.Drawing.Point(0, 292);
+            this.bunifuCustomDataGrid2.Location = new System.Drawing.Point(0, 233);
             this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
             this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -208,7 +207,7 @@
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.bunifuCustomDataGrid2.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.bunifuCustomDataGrid2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuCustomDataGrid2.Size = new System.Drawing.Size(1234, 348);
+            this.bunifuCustomDataGrid2.Size = new System.Drawing.Size(1234, 407);
             this.bunifuCustomDataGrid2.TabIndex = 298;
             // 
             // bunifuDragControl1
@@ -217,44 +216,6 @@
             this.bunifuDragControl1.Horizontal = true;
             this.bunifuDragControl1.TargetControl = this.panel1;
             this.bunifuDragControl1.Vertical = true;
-            // 
-            // btn_expiry
-            // 
-            this.btn_expiry.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.btn_expiry.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_expiry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.btn_expiry.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_expiry.BorderRadius = 0;
-            this.btn_expiry.ButtonText = "Expiration";
-            this.btn_expiry.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_expiry.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_expiry.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_expiry.ForeColor = System.Drawing.Color.White;
-            this.btn_expiry.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_expiry.Iconimage = global::KongoRiver_Employees.Properties.Resources.add_96px;
-            this.btn_expiry.Iconimage_right = null;
-            this.btn_expiry.Iconimage_right_Selected = null;
-            this.btn_expiry.Iconimage_Selected = null;
-            this.btn_expiry.IconMarginLeft = 0;
-            this.btn_expiry.IconMarginRight = 0;
-            this.btn_expiry.IconRightVisible = true;
-            this.btn_expiry.IconRightZoom = 0D;
-            this.btn_expiry.IconVisible = true;
-            this.btn_expiry.IconZoom = 50D;
-            this.btn_expiry.IsTab = true;
-            this.btn_expiry.Location = new System.Drawing.Point(1033, 152);
-            this.btn_expiry.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.btn_expiry.Name = "btn_expiry";
-            this.btn_expiry.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.btn_expiry.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.btn_expiry.OnHoverTextColor = System.Drawing.Color.White;
-            this.btn_expiry.selected = false;
-            this.btn_expiry.Size = new System.Drawing.Size(169, 40);
-            this.btn_expiry.TabIndex = 308;
-            this.btn_expiry.Text = "Expiration";
-            this.btn_expiry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_expiry.Textcolor = System.Drawing.Color.White;
-            this.btn_expiry.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // btn_supprimer
             // 
@@ -280,7 +241,7 @@
             this.btn_supprimer.IconVisible = true;
             this.btn_supprimer.IconZoom = 50D;
             this.btn_supprimer.IsTab = true;
-            this.btn_supprimer.Location = new System.Drawing.Point(718, 213);
+            this.btn_supprimer.Location = new System.Drawing.Point(656, 184);
             this.btn_supprimer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btn_supprimer.Name = "btn_supprimer";
             this.btn_supprimer.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -318,7 +279,7 @@
             this.btn_enregistrer.IconVisible = true;
             this.btn_enregistrer.IconZoom = 50D;
             this.btn_enregistrer.IsTab = true;
-            this.btn_enregistrer.Location = new System.Drawing.Point(539, 213);
+            this.btn_enregistrer.Location = new System.Drawing.Point(477, 184);
             this.btn_enregistrer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btn_enregistrer.Name = "btn_enregistrer";
             this.btn_enregistrer.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -345,7 +306,7 @@
             this.txt_place.LineIdleColor = System.Drawing.Color.White;
             this.txt_place.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_place.LineThickness = 4;
-            this.txt_place.Location = new System.Drawing.Point(511, 65);
+            this.txt_place.Location = new System.Drawing.Point(640, 67);
             this.txt_place.Margin = new System.Windows.Forms.Padding(4);
             this.txt_place.Name = "txt_place";
             this.txt_place.Size = new System.Drawing.Size(469, 44);
@@ -360,7 +321,6 @@
             this.ClientSize = new System.Drawing.Size(1234, 640);
             this.Controls.Add(this.txt_place);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btn_expiry);
             this.Controls.Add(this.btn_supprimer);
             this.Controls.Add(this.btn_enregistrer);
             this.Controls.Add(this.txt_natID_ref);
@@ -387,7 +347,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
-        private Bunifu.Framework.UI.BunifuFlatButton btn_expiry;
         private Bunifu.Framework.UI.BunifuFlatButton btn_supprimer;
         private Bunifu.Framework.UI.BunifuFlatButton btn_enregistrer;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_natID_ref;
