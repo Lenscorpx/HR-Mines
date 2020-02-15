@@ -246,6 +246,20 @@ as
 		order by 
 			record_date desc
 go
+create procedure search_natID_bycoy
+@coy_ID nvarchar(50)
+as
+	select top 100
+		 natID_number as 'ID',
+		 id_place_natID as 'Place issued',
+		 id_date_natID as 'Date Issue',
+		 coy_ID as 'Coy ID'
+	from t_nat_ID
+	where 
+		coy_ID like @coy_ID
+		order by 
+			record_date desc
+go
 create procedure inserer_natID
 @natID_number nvarchar(50),
 @place_natID nvarchar(50),
