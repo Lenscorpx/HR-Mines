@@ -1013,6 +1013,7 @@
             this.btn_nationalID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_nationalID.Textcolor = System.Drawing.Color.White;
             this.btn_nationalID.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_nationalID.Click += new System.EventHandler(this.btn_nationalID_Click);
             // 
             // pictureBox2
             // 

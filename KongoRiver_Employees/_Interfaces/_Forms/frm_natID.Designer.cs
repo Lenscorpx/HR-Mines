@@ -46,6 +46,7 @@
             this.btn_supprimer = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_enregistrer = new Bunifu.Framework.UI.BunifuFlatButton();
             this.txt_place = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txt_noms = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
@@ -99,7 +100,7 @@
             this.txt_natID_ref.LineIdleColor = System.Drawing.Color.White;
             this.txt_natID_ref.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_natID_ref.LineThickness = 4;
-            this.txt_natID_ref.Location = new System.Drawing.Point(142, 119);
+            this.txt_natID_ref.Location = new System.Drawing.Point(143, 156);
             this.txt_natID_ref.Margin = new System.Windows.Forms.Padding(4);
             this.txt_natID_ref.Name = "txt_natID_ref";
             this.txt_natID_ref.Size = new System.Drawing.Size(469, 44);
@@ -108,7 +109,7 @@
             // 
             // dt_issue_date
             // 
-            this.dt_issue_date.Location = new System.Drawing.Point(758, 134);
+            this.dt_issue_date.Location = new System.Drawing.Point(759, 171);
             this.dt_issue_date.MinimumSize = new System.Drawing.Size(0, 29);
             this.dt_issue_date.Name = "dt_issue_date";
             this.dt_issue_date.Size = new System.Drawing.Size(351, 29);
@@ -121,7 +122,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(637, 142);
+            this.label2.Location = new System.Drawing.Point(638, 179);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 17);
             this.label2.TabIndex = 302;
@@ -141,7 +142,7 @@
             this.txt_coyID.LineIdleColor = System.Drawing.Color.White;
             this.txt_coyID.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_coyID.LineThickness = 4;
-            this.txt_coyID.Location = new System.Drawing.Point(142, 67);
+            this.txt_coyID.Location = new System.Drawing.Point(143, 104);
             this.txt_coyID.Margin = new System.Windows.Forms.Padding(4);
             this.txt_coyID.Name = "txt_coyID";
             this.txt_coyID.Size = new System.Drawing.Size(469, 44);
@@ -187,7 +188,7 @@
             this.bunifuCustomDataGrid2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid2.Location = new System.Drawing.Point(0, 233);
+            this.bunifuCustomDataGrid2.Location = new System.Drawing.Point(0, 278);
             this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
             this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -207,7 +208,7 @@
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.bunifuCustomDataGrid2.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.bunifuCustomDataGrid2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuCustomDataGrid2.Size = new System.Drawing.Size(1234, 407);
+            this.bunifuCustomDataGrid2.Size = new System.Drawing.Size(1234, 362);
             this.bunifuCustomDataGrid2.TabIndex = 298;
             // 
             // bunifuDragControl1
@@ -241,7 +242,7 @@
             this.btn_supprimer.IconVisible = true;
             this.btn_supprimer.IconZoom = 50D;
             this.btn_supprimer.IsTab = true;
-            this.btn_supprimer.Location = new System.Drawing.Point(656, 184);
+            this.btn_supprimer.Location = new System.Drawing.Point(657, 221);
             this.btn_supprimer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btn_supprimer.Name = "btn_supprimer";
             this.btn_supprimer.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -279,7 +280,7 @@
             this.btn_enregistrer.IconVisible = true;
             this.btn_enregistrer.IconZoom = 50D;
             this.btn_enregistrer.IsTab = true;
-            this.btn_enregistrer.Location = new System.Drawing.Point(477, 184);
+            this.btn_enregistrer.Location = new System.Drawing.Point(478, 221);
             this.btn_enregistrer.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btn_enregistrer.Name = "btn_enregistrer";
             this.btn_enregistrer.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
@@ -306,12 +307,33 @@
             this.txt_place.LineIdleColor = System.Drawing.Color.White;
             this.txt_place.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
             this.txt_place.LineThickness = 4;
-            this.txt_place.Location = new System.Drawing.Point(640, 67);
+            this.txt_place.Location = new System.Drawing.Point(641, 104);
             this.txt_place.Margin = new System.Windows.Forms.Padding(4);
             this.txt_place.Name = "txt_place";
             this.txt_place.Size = new System.Drawing.Size(469, 44);
             this.txt_place.TabIndex = 309;
             this.txt_place.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txt_noms
+            // 
+            this.txt_noms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_noms.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_noms.Enabled = false;
+            this.txt_noms.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_noms.ForeColor = System.Drawing.Color.White;
+            this.txt_noms.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_noms.HintText = "Full name";
+            this.txt_noms.isPassword = false;
+            this.txt_noms.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_noms.LineIdleColor = System.Drawing.Color.White;
+            this.txt_noms.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_noms.LineThickness = 4;
+            this.txt_noms.Location = new System.Drawing.Point(246, 65);
+            this.txt_noms.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_noms.Name = "txt_noms";
+            this.txt_noms.Size = new System.Drawing.Size(724, 44);
+            this.txt_noms.TabIndex = 310;
+            this.txt_noms.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frm_natID
             // 
@@ -319,6 +341,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1234, 640);
+            this.Controls.Add(this.txt_noms);
             this.Controls.Add(this.txt_place);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_supprimer);
@@ -356,5 +379,6 @@
         private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_place;
+        public Bunifu.Framework.UI.BunifuMaterialTextbox txt_noms;
     }
 }

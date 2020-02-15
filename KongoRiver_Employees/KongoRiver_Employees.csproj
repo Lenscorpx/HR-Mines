@@ -78,6 +78,12 @@
     <Compile Include="_Interfaces\_Forms\frm_contracts.Designer.cs">
       <DependentUpon>frm_contracts.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_natID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_natID.Designer.cs">
+      <DependentUpon>frm_natID.cs</DependentUpon>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_visa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -279,6 +285,9 @@
     </Compile>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_contracts.resx">
       <DependentUpon>frm_contracts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_natID.resx">
+      <DependentUpon>frm_natID.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_visa.resx">
       <DependentUpon>frm_visa.cs</DependentUpon>
