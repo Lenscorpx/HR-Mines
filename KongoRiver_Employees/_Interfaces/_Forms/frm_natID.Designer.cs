@@ -36,12 +36,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_visa_ref = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txt_natID_ref = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.dt_issue_date = new MetroFramework.Controls.MetroDateTime();
             this.label2 = new System.Windows.Forms.Label();
-            this.cbx_visa_type = new MetroFramework.Controls.MetroComboBox();
-            this.dt_expiry_date = new MetroFramework.Controls.MetroDateTime();
             this.txt_coyID = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomDataGrid2 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
@@ -49,6 +46,7 @@
             this.btn_expiry = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_supprimer = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btn_enregistrer = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
@@ -76,40 +74,29 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Nat. ID Informations";
             // 
-            // txt_visa_ref
+            // txt_natID_ref
             // 
-            this.txt_visa_ref.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.txt_visa_ref.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_visa_ref.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_visa_ref.ForeColor = System.Drawing.Color.White;
-            this.txt_visa_ref.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_visa_ref.HintText = "Enter Visa Ref here";
-            this.txt_visa_ref.isPassword = false;
-            this.txt_visa_ref.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
-            this.txt_visa_ref.LineIdleColor = System.Drawing.Color.White;
-            this.txt_visa_ref.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            this.txt_visa_ref.LineThickness = 4;
-            this.txt_visa_ref.Location = new System.Drawing.Point(13, 117);
-            this.txt_visa_ref.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_visa_ref.Name = "txt_visa_ref";
-            this.txt_visa_ref.Size = new System.Drawing.Size(469, 44);
-            this.txt_visa_ref.TabIndex = 305;
-            this.txt_visa_ref.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(508, 144);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 17);
-            this.label3.TabIndex = 304;
-            this.label3.Text = "Expiry Date";
+            this.txt_natID_ref.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_natID_ref.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_natID_ref.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_natID_ref.ForeColor = System.Drawing.Color.White;
+            this.txt_natID_ref.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_natID_ref.HintText = "Enter NatID Ref here";
+            this.txt_natID_ref.isPassword = false;
+            this.txt_natID_ref.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.txt_natID_ref.LineIdleColor = System.Drawing.Color.White;
+            this.txt_natID_ref.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.txt_natID_ref.LineThickness = 4;
+            this.txt_natID_ref.Location = new System.Drawing.Point(13, 117);
+            this.txt_natID_ref.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_natID_ref.Name = "txt_natID_ref";
+            this.txt_natID_ref.Size = new System.Drawing.Size(469, 44);
+            this.txt_natID_ref.TabIndex = 305;
+            this.txt_natID_ref.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // dt_issue_date
             // 
-            this.dt_issue_date.Location = new System.Drawing.Point(629, 80);
+            this.dt_issue_date.Location = new System.Drawing.Point(629, 132);
             this.dt_issue_date.MinimumSize = new System.Drawing.Size(0, 29);
             this.dt_issue_date.Name = "dt_issue_date";
             this.dt_issue_date.Size = new System.Drawing.Size(258, 29);
@@ -122,37 +109,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(508, 88);
+            this.label2.Location = new System.Drawing.Point(508, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.Size = new System.Drawing.Size(77, 17);
             this.label2.TabIndex = 302;
-            this.label2.Text = "Issue Date";
-            // 
-            // cbx_visa_type
-            // 
-            this.cbx_visa_type.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.cbx_visa_type.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cbx_visa_type.ForeColor = System.Drawing.Color.White;
-            this.cbx_visa_type.FormattingEnabled = true;
-            this.cbx_visa_type.ItemHeight = 23;
-            this.cbx_visa_type.Location = new System.Drawing.Point(12, 193);
-            this.cbx_visa_type.Name = "cbx_visa_type";
-            this.cbx_visa_type.PromptText = "Choose visa type";
-            this.cbx_visa_type.Size = new System.Drawing.Size(469, 29);
-            this.cbx_visa_type.Style = MetroFramework.MetroColorStyle.Blue;
-            this.cbx_visa_type.TabIndex = 301;
-            this.cbx_visa_type.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.cbx_visa_type.UseSelectable = true;
-            // 
-            // dt_expiry_date
-            // 
-            this.dt_expiry_date.Location = new System.Drawing.Point(629, 136);
-            this.dt_expiry_date.MinimumSize = new System.Drawing.Size(0, 29);
-            this.dt_expiry_date.Name = "dt_expiry_date";
-            this.dt_expiry_date.Size = new System.Drawing.Size(258, 29);
-            this.dt_expiry_date.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dt_expiry_date.TabIndex = 300;
-            this.dt_expiry_date.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.label2.Text = "Issue Place";
             // 
             // txt_coyID
             // 
@@ -371,22 +332,40 @@
             this.btn_enregistrer.Textcolor = System.Drawing.Color.White;
             this.btn_enregistrer.TextFont = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // bunifuMaterialTextbox1
+            // 
+            this.bunifuMaterialTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.White;
+            this.bunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuMaterialTextbox1.HintText = "Enter Visa Ref here";
+            this.bunifuMaterialTextbox1.isPassword = false;
+            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
+            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.White;
+            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            this.bunifuMaterialTextbox1.LineThickness = 4;
+            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(511, 65);
+            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
+            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(469, 44);
+            this.bunifuMaterialTextbox1.TabIndex = 309;
+            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // frm_natID
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(43)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(1234, 640);
+            this.Controls.Add(this.bunifuMaterialTextbox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_expiry);
             this.Controls.Add(this.btn_supprimer);
             this.Controls.Add(this.btn_enregistrer);
-            this.Controls.Add(this.txt_visa_ref);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txt_natID_ref);
             this.Controls.Add(this.dt_issue_date);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbx_visa_type);
-            this.Controls.Add(this.dt_expiry_date);
             this.Controls.Add(this.txt_coyID);
             this.Controls.Add(this.bunifuCustomDataGrid2);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -411,14 +390,12 @@
         private Bunifu.Framework.UI.BunifuFlatButton btn_expiry;
         private Bunifu.Framework.UI.BunifuFlatButton btn_supprimer;
         private Bunifu.Framework.UI.BunifuFlatButton btn_enregistrer;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_visa_ref;
-        private System.Windows.Forms.Label label3;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txt_natID_ref;
         private MetroFramework.Controls.MetroDateTime dt_issue_date;
         private System.Windows.Forms.Label label2;
-        private MetroFramework.Controls.MetroComboBox cbx_visa_type;
-        private MetroFramework.Controls.MetroDateTime dt_expiry_date;
         public Bunifu.Framework.UI.BunifuMaterialTextbox txt_coyID;
         private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
     }
 }
