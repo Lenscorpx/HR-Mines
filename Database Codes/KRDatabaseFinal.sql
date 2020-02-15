@@ -242,7 +242,7 @@ as
 		 coy_ID as 'Coy ID'
 	from t_nat_ID
 	where 
-		natID_number like 
+		natID_number like @natID_number
 		order by 
 			record_date desc
 go
