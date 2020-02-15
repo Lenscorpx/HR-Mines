@@ -246,6 +246,28 @@ as
 		order by 
 			record_date desc
 go
+create procedure inserer_natID
+@natID_number nvarchar(50),
+@place_natID nvarchar(50),
+@date_natID date,
+@coyID nvarchar(50)
+as
+	merge into t_nat_ID
+		using (select @natID_number as x_id) as x_source
+		on (x_source.x_id=t_nat_ID.natID_number)
+		when matched then
+			update
+				set
+					id_place_natID=@place_natID,
+					id_date_natID=@date_natID,
+					coy_ID=@coyID,
+					record_date=getdate()
+		when not matched then
+			insert
+				(natID_number, id_place_natID, id_date_natID, coy_ID, record_date)
+			values
+				(@natID_number, @place_natID, @date_natID, @coyID, getdate());
+go
 /****** Object:  Table dbo.t_passport    Script Date: 14/10/2017 16:36:27 ******/
 create table t_passport
 	(
