@@ -268,6 +268,14 @@ as
 			values
 				(@natID_number, @place_natID, @date_natID, @coyID, getdate());
 go
+create procedure supprimer_nat_ID
+@natID_number nvarchar(50)
+as
+	delete from t_nat_ID 
+		where
+			natID_number like @natID_number
+go
+
 /****** Object:  Table dbo.t_passport    Script Date: 14/10/2017 16:36:27 ******/
 create table t_passport
 	(
