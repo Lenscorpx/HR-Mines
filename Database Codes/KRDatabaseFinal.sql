@@ -221,6 +221,31 @@ create table t_nat_ID
 		constraint fk_employee_natID foreign key(coy_ID) references t_employees(coy_ID)
 	)
 go
+create procedure afficher_natID
+as
+	select top 100
+		 natID_number as 'ID',
+		 id_place_natID as 'Place issued',
+		 id_date_natID as 'Date Issue',
+		 coy_ID as 'Coy ID'
+	from t_nat_ID
+		order by 
+			record_date desc
+go
+create procedure search_natID
+@natID_number nvarchar(50)
+as
+	select top 100
+		 natID_number as 'ID',
+		 id_place_natID as 'Place issued',
+		 id_date_natID as 'Date Issue',
+		 coy_ID as 'Coy ID'
+	from t_nat_ID
+	where 
+		natID_number like 
+		order by 
+			record_date desc
+go
 /****** Object:  Table dbo.t_passport    Script Date: 14/10/2017 16:36:27 ******/
 create table t_passport
 	(
