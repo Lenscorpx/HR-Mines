@@ -2374,6 +2374,7 @@ namespace KongoRiver_Employees._Codes
                 cmd.Parameters.Add(new SqlParameter("record_date", SqlDbType.Date)).Value = DateTime.Today;
 
                 cmd.ExecuteNonQuery();
+                MessageBox.Show("Informations added successfully!");
                 //afficher_frais(dtg);                
             }
             catch (Exception tdf)
@@ -2403,6 +2404,7 @@ namespace KongoRiver_Employees._Codes
                 };
                 cmd.Parameters.Add(new SqlParameter("natID_number", SqlDbType.NVarChar)).Value = natID_number;
                 cmd.ExecuteNonQuery();
+                MessageBox.Show("Informations deleted successfully!");
             }
             catch (Exception tdf)
             {
