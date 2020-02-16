@@ -1688,8 +1688,8 @@ as
 	from t_nat_ID
 		order by record_date desc, natID_number asc
 go
-create procedure rechercher_nat_ID
-@search_name nvarchar(50)
+create procedure rechercher_nat_ID_coy
+@search_coy nvarchar(50)
 as
 	select top 50
 		natID_number as 'NatID. Number',
@@ -1698,7 +1698,7 @@ as
 		coy_ID as 'Coy. ID',
 		record_date as 'Record Date'
 	from t_nat_ID
-	where coy_ID like '%'+@search_name+'%'
+	where coy_ID like '%'+@search_coy+'%'
 		order by record_date desc, natID_number asc
 go
 create procedure enregistrer_nat_ID
