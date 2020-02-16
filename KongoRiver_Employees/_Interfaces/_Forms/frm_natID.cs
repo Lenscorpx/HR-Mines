@@ -26,5 +26,28 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
             this.Close();
         }
+
+        private void txt_coyID_OnValueChanged(object sender, EventArgs e)
+        {
+            rps.rechercher_nat_ID_coy(bunifuCustomDataGrid2, txt_coyID.Text);
+        }
+
+        private void txt_natID_ref_OnValueChanged(object sender, EventArgs e)
+        {
+            rps.search_natID(bunifuCustomDataGrid2, txt_natID_ref.Text);
+        }
+
+        private void btn_enregistrer_Click(object sender, EventArgs e)
+        {
+            if(txt_coyID.Text==""|| txt_natID_ref.Text=="" ||txt_place.Text=="" ||dt_issue_date.Text=="")
+            {
+                MessageBox.Show("Please fill all required informations!");
+            }
+            else
+            {
+                rps.enregistrer_nat_ID(txt_natID_ref.Text, txt_place.Text, dt_issue_date.Value, txt_coyID.Text);
+                refresh();
+            }
+        }
     }
 }

@@ -2228,19 +2228,51 @@ namespace KongoRiver_Employees._Codes
         //    {
         //        cnx.Close(); cnx.Dispose();
         //    }
-        //}
-        public void rechercher_nat_ID(DataGridView dtg, string a_rechercher)
+        //}        
+        public void rechercher_nat_ID_coy(DataGridView dtg, string a_rechercher)
         {
             cnx = new SqlConnection(prms.ToString());
             try
             {
                 if (cnx.State == ConnectionState.Closed)
                     cnx.Open();
-                var cmd = new SqlCommand("rechercher_nat_ID", cnx)
+                var cmd = new SqlCommand("rechercher_nat_ID_coy", cnx)
                 {
                     CommandType = CommandType.StoredProcedure
                 };
-                cmd.Parameters.Add(new SqlParameter("search_name", SqlDbType.NVarChar)).Value = a_rechercher;
+                cmd.Parameters.Add(new SqlParameter("search_coy", SqlDbType.NVarChar)).Value = a_rechercher;
+                cmd.ExecuteNonQuery();
+                var da = new SqlDataAdapter(cmd);
+                var dt = new DataTable();
+                da.Fill(dt);
+                dtg.DataSource = dt;
+            }
+            catch (Exception exct)
+            {
+                var rs = new DialogResult();
+                rs = MessageBox.Show("Want to see error code?", "Errors ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rs == DialogResult.Yes)
+                {
+                    MessageBox.Show(exct.ToString());
+                }
+            }
+            finally
+            {
+                cnx.Close(); cnx.Dispose();
+            }
+        }
+        public void search_natID(DataGridView dtg, string a_rechercher)
+        {
+            cnx = new SqlConnection(prms.ToString());
+            try
+            {
+                if (cnx.State == ConnectionState.Closed)
+                    cnx.Open();
+                var cmd = new SqlCommand("search_natID", cnx)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.Add(new SqlParameter("natID_number", SqlDbType.NVarChar)).Value = a_rechercher;
                 cmd.ExecuteNonQuery();
                 var da = new SqlDataAdapter(cmd);
                 var dt = new DataTable();
