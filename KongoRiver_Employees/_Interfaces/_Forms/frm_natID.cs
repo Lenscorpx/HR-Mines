@@ -58,8 +58,13 @@ namespace KongoRiver_Employees._Interfaces._Forms
             }
             else
             {
-                rps.supprimer_nat_ID(txt_natID_ref.Text);
-                refresh();
+                var rs = new DialogResult();
+                rs = MessageBox.Show(this, "Confirm deletion?", "Deletion confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if(rs==DialogResult.Yes)
+                {
+                    rps.supprimer_nat_ID(txt_natID_ref.Text);
+                    refresh();
+                }                
             }
         }
 
