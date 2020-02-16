@@ -85,7 +85,7 @@ namespace KongoRiver_Employees._Interfaces._UserControls
 
         private void txt_coy_id_TextChanged(object sender, EventArgs e)
         {
-            rps.rechercher_nat_ID(bunifuCustomDataGrid1, txt_coy_id.Text);
+            rps.search_natID_bycoy(bunifuCustomDataGrid1, txt_coy_id.Text);
         }
     }
 }

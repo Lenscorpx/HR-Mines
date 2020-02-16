@@ -49,5 +49,26 @@ namespace KongoRiver_Employees._Interfaces._Forms
                 refresh();
             }
         }
+
+        private void btn_supprimer_Click(object sender, EventArgs e)
+        {
+            if(txt_natID_ref.Text=="")
+            {
+                MessageBox.Show("Please select Nat ID number in order to delete it!");
+            }
+            else
+            {
+                rps.supprimer_nat_ID(txt_natID_ref.Text);
+                refresh();
+            }
+        }
+
+        private void bunifuCustomDataGrid2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txt_natID_ref.Text = bunifuCustomDataGrid2.SelectedRows[0].Cells[0].Value.ToString();
+            txt_place.Text = bunifuCustomDataGrid2.SelectedRows[0].Cells[1].Value.ToString();
+            dt_issue_date.Value = Convert.ToDateTime(bunifuCustomDataGrid2.SelectedRows[0].Cells[2].Value.ToString());
+            txt_coyID.Text = bunifuCustomDataGrid2.SelectedRows[0].Cells[3].Value.ToString();
+        }
     }
 }

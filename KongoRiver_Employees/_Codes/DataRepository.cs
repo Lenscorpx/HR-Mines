@@ -2261,6 +2261,38 @@ namespace KongoRiver_Employees._Codes
                 cnx.Close(); cnx.Dispose();
             }
         }
+        public void search_natID_bycoy(DataGridView dtg, string a_rechercher)
+        {
+            cnx = new SqlConnection(prms.ToString());
+            try
+            {
+                if (cnx.State == ConnectionState.Closed)
+                    cnx.Open();
+                var cmd = new SqlCommand("search_natID_bycoy", cnx)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.Add(new SqlParameter("coy_ID", SqlDbType.NVarChar)).Value = a_rechercher;
+                cmd.ExecuteNonQuery();
+                var da = new SqlDataAdapter(cmd);
+                var dt = new DataTable();
+                da.Fill(dt);
+                dtg.DataSource = dt;
+            }
+            catch (Exception exct)
+            {
+                var rs = new DialogResult();
+                rs = MessageBox.Show("Want to see error code?", "Errors ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rs == DialogResult.Yes)
+                {
+                    MessageBox.Show(exct.ToString());
+                }
+            }
+            finally
+            {
+                cnx.Close(); cnx.Dispose();
+            }
+        }
         public void search_natID(DataGridView dtg, string a_rechercher)
         {
             cnx = new SqlConnection(prms.ToString());
