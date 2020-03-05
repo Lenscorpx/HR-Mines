@@ -29,7 +29,7 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void txt_coyID_OnValueChanged(object sender, EventArgs e)
         {
-            rps.rechercher_nat_ID_coy(bunifuCustomDataGrid2, txt_coyID.Text);
+            rps.rechercher_nat_ID(bunifuCustomDataGrid2, txt_coyID.Text);
         }
 
         private void txt_natID_ref_OnValueChanged(object sender, EventArgs e)

@@ -18,18 +18,18 @@ namespace KongoRiver_Employees._Codes
             //prms.Serveur = "tcp:conebase.database.windows.net";                    
             //prms.Nom_user = "LensX";
             //prms.Mot_de_passe = "Cony@2017.com?";
-            //prms.Serveur = "PAMELA";
-            //prms.Base_de_donnees = "AndreaBD";
-            //prms.Nom_user = "sa";
-            //prms.Mot_de_passe = "123456";
+            prms.Serveur = "PAMELA";
+            prms.Base_de_donnees = "AndreaBD";
+            prms.Nom_user = "sa";
+            prms.Mot_de_passe = "123456";
             //prms.Serveur = "ALEX_B";
             //prms.Base_de_donnees = "AndreaBD";
             //prms.Nom_user = "Lens";
             //prms.Mot_de_passe = "12345678";
-            prms.Serveur = "DESKTOP-PO0I2OH";
-            prms.Base_de_donnees = "AndreaBD";
-            prms.Nom_user = "sa";
-            prms.Mot_de_passe = "Windy@2019.com?";
+            //prms.Serveur = "DESKTOP-PO0I2OH";
+            //prms.Base_de_donnees = "AndreaBD";
+            //prms.Nom_user = "sa";
+            //prms.Mot_de_passe = "Windy@2019.com?";
             //prms.Serveur = "SCI-CD-L19-430\\SERVEUR";
             //prms.Base_de_donnees = "AndreaBD";
             //prms.Nom_user = "sa";
@@ -2229,18 +2229,18 @@ namespace KongoRiver_Employees._Codes
         //        cnx.Close(); cnx.Dispose();
         //    }
         //}        
-        public void rechercher_nat_ID_coy(DataGridView dtg, string a_rechercher)
+        public void rechercher_nat_ID(DataGridView dtg, string a_rechercher)
         {
             cnx = new SqlConnection(prms.ToString());
             try
             {
                 if (cnx.State == ConnectionState.Closed)
                     cnx.Open();
-                var cmd = new SqlCommand("rechercher_nat_ID_coy", cnx)
+                var cmd = new SqlCommand("rechercher_nat_ID", cnx)
                 {
                     CommandType = CommandType.StoredProcedure
                 };
-                cmd.Parameters.Add(new SqlParameter("search_coy", SqlDbType.NVarChar)).Value = a_rechercher;
+                cmd.Parameters.Add(new SqlParameter("search_name", SqlDbType.NVarChar)).Value = a_rechercher;
                 cmd.ExecuteNonQuery();
                 var da = new SqlDataAdapter(cmd);
                 var dt = new DataTable();
