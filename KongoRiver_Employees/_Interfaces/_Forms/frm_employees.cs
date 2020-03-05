@@ -123,7 +123,8 @@ namespace KongoRiver_Employees._Interfaces._Forms
             }
             else
             {
-                drs.inserer_employee(txt_coy_ID.Text, txt_first_name.Text, txt_lastname.Text, txt_given_name.Text, cbx_sexe.Text, txt_nationality.Text, txt_birthplace.Text, Convert.ToDateTime(dt_date_birthday.Text), txt_province.Text, txt_district.Text, txt_territory.Text, txt_sect_chef.Text, txt_village.Text, tof);
+                drs.inserer_employee(txt_coy_ID.Text, txt_first_name.Text, txt_lastname.Text, txt_given_name.Text, cbx_sexe.Text, txt_nationality.Text, 
+                txt_birthplace.Text, Convert.ToDateTime(dt_date_birthday.Text), txt_province.Text, txt_district.Text, txt_territory.Text, txt_sect_chef.Text, txt_village.Text, tof);
                 afficher_employees();
             }
         }
