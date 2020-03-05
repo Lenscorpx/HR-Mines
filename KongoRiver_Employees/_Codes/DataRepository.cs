@@ -18,10 +18,10 @@ namespace KongoRiver_Employees._Codes
             //prms.Serveur = "tcp:conebase.database.windows.net";                    
             //prms.Nom_user = "LensX";
             //prms.Mot_de_passe = "Cony@2017.com?";
-            prms.Serveur = "PAMELA";
-            prms.Base_de_donnees = "AndreaBD";
-            prms.Nom_user = "sa";
-            prms.Mot_de_passe = "123456";
+            //prms.Serveur = "PAMELA";
+            //prms.Base_de_donnees = "AndreaBD";
+            //prms.Nom_user = "sa";
+            //prms.Mot_de_passe = "123456";
             //prms.Serveur = "ALEX_B";
             //prms.Base_de_donnees = "AndreaBD";
             //prms.Nom_user = "Lens";
@@ -30,10 +30,10 @@ namespace KongoRiver_Employees._Codes
             //prms.Base_de_donnees = "AndreaBD";
             //prms.Nom_user = "sa";
             //prms.Mot_de_passe = "Windy@2019.com?";
-            //prms.Serveur = "SCI-CD-L19-430\\SERVEUR";
-            //prms.Base_de_donnees = "AndreaBD";
-            //prms.Nom_user = "sa";
-            //prms.Mot_de_passe = "123456789";
+            prms.Serveur = "SCI-CD-L19-430\\SERVEUR";
+            prms.Base_de_donnees = "AndreaBD";
+            prms.Nom_user = "sa";
+            prms.Mot_de_passe = "123456789";
         }
         public void afficher_employees(DataGridView dtg)
         {
