@@ -84,6 +84,12 @@
     <Compile Include="_Interfaces\_Forms\frm_natID.Designer.cs">
       <DependentUpon>frm_natID.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_passport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Interfaces\_Forms\frm_passport.Designer.cs">
+      <DependentUpon>frm_passport.cs</DependentUpon>
+    </Compile>
     <Compile Include="_Interfaces\_Forms\frm_visa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -288,6 +294,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_natID.resx">
       <DependentUpon>frm_natID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Interfaces\_Forms\frm_passport.resx">
+      <DependentUpon>frm_passport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_Interfaces\_Forms\frm_visa.resx">
       <DependentUpon>frm_visa.cs</DependentUpon>
