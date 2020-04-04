@@ -16,5 +16,10 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
             InitializeComponent();
         }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
