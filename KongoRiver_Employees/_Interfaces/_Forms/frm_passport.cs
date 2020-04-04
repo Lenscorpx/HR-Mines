@@ -19,7 +19,7 @@ namespace KongoRiver_Employees._Interfaces._Forms
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
