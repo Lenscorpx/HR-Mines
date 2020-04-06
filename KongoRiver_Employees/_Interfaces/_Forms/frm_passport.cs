@@ -23,7 +23,7 @@ namespace KongoRiver_Employees._Interfaces._Forms
             //rps.remplir_lisbox_nom(listBox1);
             rps.afficher_passport(bunifuCustomDataGrid2);
             //txt_comments.Clear();
-            txt_coy_id.Clear();
+            //txt_coy_id.Clear();
             txt_passport_number.Clear();
             txt_place_issued.Clear();
         }
