@@ -12,6 +12,7 @@ namespace KongoRiver_Employees._Interfaces._Forms
 {
     public partial class frm_passport : Form
     {
+        DataRepository rps = new DataRepository();
         public frm_passport()
         {
             InitializeComponent();
