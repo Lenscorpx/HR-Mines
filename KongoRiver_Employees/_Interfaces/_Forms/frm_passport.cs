@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KongoRiver_Employees._Codes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
