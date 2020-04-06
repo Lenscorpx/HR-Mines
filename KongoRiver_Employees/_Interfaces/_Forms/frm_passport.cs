@@ -16,6 +16,15 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
             InitializeComponent();
         }
+        public void refresh_Data()
+        {
+            rps.remplir_lisbox_nom(listBox1);
+            rps.afficher_passport(bunifuCustomDataGrid1);
+            txt_comments.Clear();
+            txt_coy_id.Clear();
+            txt_passport_number.Clear();
+            txt_place_issued.Clear();
+        }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
