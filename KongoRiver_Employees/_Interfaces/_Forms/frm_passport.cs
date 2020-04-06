@@ -25,7 +25,7 @@ namespace KongoRiver_Employees._Interfaces._Forms
             //txt_comments.Clear();
             //txt_coy_id.Clear();
             //txt_passport_number.Clear();
-            txt_place_issued.Clear();
+            //txt_place_issued.Clear();
         }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
