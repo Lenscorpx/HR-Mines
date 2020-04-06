@@ -17,6 +17,7 @@ namespace KongoRiver_Employees._Interfaces._Forms
         public frm_passport()
         {
             InitializeComponent();
+            refresh_Data();
         }
         public void refresh_Data()
         {
