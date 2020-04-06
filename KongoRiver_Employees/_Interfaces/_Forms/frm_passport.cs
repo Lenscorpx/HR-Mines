@@ -21,5 +21,10 @@ namespace KongoRiver_Employees._Interfaces._Forms
         {
             this.Close();
         }
+
+        private void btn_enregistrer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
